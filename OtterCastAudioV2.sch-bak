@@ -1,0 +1,829 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 5
+Title "OtterCastAudioV2"
+Date ""
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4650 5200 2    60   Input ~ 0
+USB-ID
+$Comp
+L S3-OLinuXino_Rev_A:+3.3V #PWR032
+U 1 1 5D6CDF56
+P 14150 7050
+F 0 "#PWR032" H 14150 6900 50  0001 C CNN
+F 1 "+3.3V" H 14150 7190 50  0000 C CNN
+F 2 "" H 14150 7050 60  0000 C CNN
+F 3 "" H 14150 7050 60  0000 C CNN
+	1    14150 7050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR03
+U 1 1 5D904B73
+P 900 1200
+F 0 "#PWR03" H 900 950 50  0001 C CNN
+F 1 "GND" V 900 1025 50  0000 C CNN
+F 2 "" H 900 1200 60  0000 C CNN
+F 3 "" H 900 1200 60  0000 C CNN
+	1    900  1200
+	0    1    1    0   
+$EndComp
+$Comp
+L S3-OLinuXino_Rev_A:+3.3V #PWR046
+U 1 1 5D97B54A
+P 1150 4250
+F 0 "#PWR046" H 1150 4100 50  0001 C CNN
+F 1 "+3.3V" H 1150 4390 50  0000 C CNN
+F 2 "" H 1150 4250 60  0000 C CNN
+F 3 "" H 1150 4250 60  0000 C CNN
+	1    1150 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4250 1150 4300
+Wire Wire Line
+	1450 4300 1550 4300
+Wire Wire Line
+	1450 4300 1450 4400
+Wire Wire Line
+	1450 4400 1550 4400
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR047
+U 1 1 57966C0E
+P 14250 4850
+F 0 "#PWR047" H 14250 4600 50  0001 C CNN
+F 1 "GND" H 14250 4700 50  0000 C CNN
+F 2 "" H 14250 4850 60  0000 C CNN
+F 3 "" H 14250 4850 60  0000 C CNN
+	1    14250 4850
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 650  9950 1250 1050
+U 602ACDF9
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
+$Sheet
+S 2050 9950 1250 1050
+U 604A1CEE
+F0 "Audio" 50
+F1 "Audio.sch" 50
+$EndSheet
+$Sheet
+S 3450 9950 1250 1050
+U 6191F40B
+F0 "WifiBT" 50
+F1 "WifiBT.sch" 50
+$EndSheet
+$Sheet
+S 4850 9950 1250 1050
+U 620E795B
+F0 "MIPI & ETH" 50
+F1 "MIPI.sch" 50
+$EndSheet
+$Comp
+L Connector:Micro_SD_Card_Det J?
+U 1 1 6253C42F
+P 15050 9100
+F 0 "J?" H 15000 9917 50  0000 C CNN
+F 1 "SD" H 15000 9826 50  0000 C CNN
+F 2 "" H 17100 9800 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 15050 9200 50  0001 C CNN
+	1    15050 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:GND #PWR?
+U 1 1 6253E6C2
+P 15850 9600
+F 0 "#PWR?" H 15850 9350 50  0001 C CNN
+F 1 "GND" H 15855 9427 50  0000 C CNN
+F 2 "" H 15850 9600 60  0000 C CNN
+F 3 "" H 15850 9600 60  0000 C CNN
+	1    15850 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR?
+U 1 1 6253EB67
+P 14150 9600
+F 0 "#PWR?" H 14150 9350 50  0001 C CNN
+F 1 "GND" H 14150 9450 50  0000 C CNN
+F 2 "" H 14150 9600 60  0000 C CNN
+F 3 "" H 14150 9600 60  0000 C CNN
+	1    14150 9600
+	1    0    0    -1  
+$EndComp
+Text Label 13550 9100 0    60   ~ 0
+SDC0-CLK
+Text Label 13550 9500 0    60   ~ 0
+SDC0-DET#
+Text Label 13550 9300 0    60   ~ 0
+SDC0-D0
+Text Label 13550 9400 0    60   ~ 0
+SDC0-D1
+Text Label 13550 8700 0    60   ~ 0
+SDC0-D2
+Text Label 13550 8800 0    60   ~ 0
+SDC0-D3
+Text Label 13550 8900 0    60   ~ 0
+SDC0-CMD
+$Comp
+L Device:R_Small R?
+U 1 1 62985261
+P 13250 8700
+F 0 "R?" V 13200 8550 50  0000 C CNN
+F 1 "47k" V 13200 8900 50  0000 C CNN
+F 2 "otter:C_0402" H 13250 8700 50  0001 C CNN
+F 3 "~" H 13250 8700 50  0001 C CNN
+	1    13250 8700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13350 8700 14150 8700
+Wire Wire Line
+	13350 9500 14150 9500
+Wire Wire Line
+	13350 9400 14150 9400
+Wire Wire Line
+	13350 9300 14150 9300
+Wire Wire Line
+	13350 9100 14150 9100
+Wire Wire Line
+	13350 8900 14150 8900
+Wire Wire Line
+	13350 8800 14150 8800
+Wire Wire Line
+	13150 8700 13050 8700
+Wire Wire Line
+	13050 8700 13050 8800
+Wire Wire Line
+	13050 9500 13150 9500
+Wire Wire Line
+	13150 9400 13050 9400
+Connection ~ 13050 9400
+Wire Wire Line
+	13050 9400 13050 9500
+Connection ~ 13050 9300
+Wire Wire Line
+	13050 9300 13050 9400
+Wire Wire Line
+	13050 9300 13150 9300
+Connection ~ 13050 9100
+Wire Wire Line
+	13050 9100 13050 9300
+Wire Wire Line
+	13050 9100 13150 9100
+Wire Wire Line
+	13150 8900 13050 8900
+Connection ~ 13050 8900
+Wire Wire Line
+	13050 8900 13050 9100
+Wire Wire Line
+	13150 8800 13050 8800
+Connection ~ 13050 8800
+Wire Wire Line
+	13050 8800 13050 8900
+$Comp
+L otter:GND #PWR?
+U 1 1 62D601B0
+P 14150 9200
+F 0 "#PWR?" H 14150 8950 50  0001 C CNN
+F 1 "GND" V 14100 9050 50  0000 R CNN
+F 2 "" H 14150 9200 60  0000 C CNN
+F 3 "" H 14150 9200 60  0000 C CNN
+	1    14150 9200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62F2141A
+P 12850 9150
+F 0 "C?" H 12758 9196 50  0000 R CNN
+F 1 "10u" H 12758 9105 50  0000 R CNN
+F 2 "otter:C_0603" H 12850 9150 50  0001 C CNN
+F 3 "~" H 12850 9150 50  0001 C CNN
+	1    12850 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:GND #PWR?
+U 1 1 62F7C4A4
+P 12850 9250
+F 0 "#PWR?" H 12850 9000 50  0001 C CNN
+F 1 "GND" H 12855 9077 50  0000 C CNN
+F 2 "" H 12850 9250 60  0000 C CNN
+F 3 "" H 12850 9250 60  0000 C CNN
+	1    12850 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 9000 12850 9050
+Wire Wire Line
+	12850 9000 14150 9000
+$Comp
+L S3-OLinuXino_Rev_A:+3.3V #PWR?
+U 1 1 62FAA3E6
+P 12850 8650
+F 0 "#PWR?" H 12850 8500 50  0001 C CNN
+F 1 "+3.3V" H 12865 8823 50  0000 C CNN
+F 2 "" H 12850 8650 60  0000 C CNN
+F 3 "" H 12850 8650 60  0000 C CNN
+	1    12850 8650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 8950 12850 9000
+Connection ~ 12850 9000
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 6300672E
+P 12850 8850
+F 0 "FB?" H 12751 8896 50  0000 R CNN
+F 1 "FERRET" H 12751 8805 50  0000 R CNN
+F 2 "otter:R_0805" V 12780 8850 50  0001 C CNN
+F 3 "~" H 12850 8850 50  0001 C CNN
+	1    12850 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 8700 12850 8700
+Wire Wire Line
+	12850 8700 12850 8750
+Connection ~ 13050 8700
+Wire Wire Line
+	12850 8700 12850 8650
+Connection ~ 12850 8700
+$Comp
+L Device:R_Small R?
+U 1 1 630930C4
+P 13250 8800
+F 0 "R?" V 13200 8650 50  0000 C CNN
+F 1 "47k" V 13200 9000 50  0000 C CNN
+F 2 "otter:C_0402" H 13250 8800 50  0001 C CNN
+F 3 "~" H 13250 8800 50  0001 C CNN
+	1    13250 8800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 630C028C
+P 13250 8900
+F 0 "R?" V 13200 8750 50  0000 C CNN
+F 1 "47k" V 13200 9100 50  0000 C CNN
+F 2 "otter:C_0402" H 13250 8900 50  0001 C CNN
+F 3 "~" H 13250 8900 50  0001 C CNN
+	1    13250 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 630ED49D
+P 13250 9100
+F 0 "R?" V 13200 8950 50  0000 C CNN
+F 1 "47k" V 13200 9300 50  0000 C CNN
+F 2 "otter:C_0402" H 13250 9100 50  0001 C CNN
+F 3 "~" H 13250 9100 50  0001 C CNN
+	1    13250 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6311A6AE
+P 13250 9300
+F 0 "R?" V 13200 9150 50  0000 C CNN
+F 1 "47k" V 13200 9500 50  0000 C CNN
+F 2 "otter:C_0402" H 13250 9300 50  0001 C CNN
+F 3 "~" H 13250 9300 50  0001 C CNN
+	1    13250 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63147837
+P 13250 9400
+F 0 "R?" V 13200 9250 50  0000 C CNN
+F 1 "47k" V 13200 9600 50  0000 C CNN
+F 2 "otter:C_0402" H 13250 9400 50  0001 C CNN
+F 3 "~" H 13250 9400 50  0001 C CNN
+	1    13250 9400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 631749F5
+P 13250 9500
+F 0 "R?" V 13200 9350 50  0000 C CNN
+F 1 "47k" V 13200 9700 50  0000 C CNN
+F 2 "otter:C_0402" H 13250 9500 50  0001 C CNN
+F 3 "~" H 13250 9500 50  0001 C CNN
+	1    13250 9500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63233A4C
+P 1150 4450
+F 0 "C?" H 1058 4496 50  0000 R CNN
+F 1 "100n" H 1058 4405 50  0000 R CNN
+F 2 "otter:C_0402" H 1150 4450 50  0001 C CNN
+F 3 "~" H 1150 4450 50  0001 C CNN
+	1    1150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4300 1150 4300
+Connection ~ 1450 4300
+Connection ~ 1150 4300
+Wire Wire Line
+	1150 4300 1150 4350
+$Comp
+L otter:GND #PWR?
+U 1 1 632DD215
+P 1150 4550
+F 0 "#PWR?" H 1150 4300 50  0001 C CNN
+F 1 "GND" H 1155 4377 50  0000 C CNN
+F 2 "" H 1150 4550 60  0000 C CNN
+F 3 "" H 1150 4550 60  0000 C CNN
+	1    1150 4550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1550 4600
+NoConn ~ 1550 4700
+NoConn ~ 1550 4900
+NoConn ~ 1550 4800
+NoConn ~ 1550 5000
+NoConn ~ 1550 5100
+NoConn ~ 1550 5200
+NoConn ~ 1550 5300
+NoConn ~ 1550 5400
+NoConn ~ 1550 5500
+NoConn ~ 1550 5600
+NoConn ~ 1550 5700
+NoConn ~ 1550 5800
+NoConn ~ 1550 5900
+NoConn ~ 1550 6000
+NoConn ~ 1550 6100
+NoConn ~ 1550 6200
+NoConn ~ 1550 6300
+NoConn ~ 1550 6400
+NoConn ~ 1550 6500
+NoConn ~ 1550 6600
+NoConn ~ 1550 6700
+Text GLabel 4650 6100 2    50   Input ~ 0
+SDC0-DET#
+Text GLabel 4650 6200 2    50   Input ~ 0
+SDC0-D2
+Text GLabel 4650 6300 2    50   Input ~ 0
+SDC0-D3
+Text GLabel 4650 6400 2    50   Input ~ 0
+SDC0-CMD
+Text GLabel 4650 6600 2    50   Input ~ 0
+SDC0-D0
+Text GLabel 4650 6700 2    50   Input ~ 0
+SDC0-D1
+Text GLabel 4650 6500 2    50   Input ~ 0
+SDC0-CLK
+Text GLabel 4650 4300 2    50   Input ~ 0
+WL-SDIO-CLK
+Text GLabel 4650 4400 2    50   Input ~ 0
+WL-SDIO-CMD
+Text GLabel 4650 4500 2    50   Input ~ 0
+WL-SDIO-D0
+Text GLabel 4650 4600 2    50   Input ~ 0
+WL-SDIO-D1
+Text GLabel 4650 4700 2    50   Input ~ 0
+WL-SDIO-D2
+Text GLabel 4650 4800 2    50   Input ~ 0
+WL-SDIO-D3
+Text GLabel 4650 4900 2    50   Input ~ 0
+UART1_TX
+Text GLabel 4650 5000 2    50   Input ~ 0
+UART1_RX
+Text GLabel 4650 5100 2    50   Input ~ 0
+BT-WAKE-AP
+Text GLabel 4650 5300 2    50   Input ~ 0
+BT-PCM-SYNC
+Text GLabel 4650 5400 2    50   Input ~ 0
+BT-PCM-CLK
+Text GLabel 4650 5500 2    50   Input ~ 0
+BT-PCM-DIN
+Text GLabel 4650 5600 2    50   Input ~ 0
+BT-PCM-DOUT
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 635CE136
+P 13550 4550
+F 0 "J?" H 13630 4542 50  0000 L CNN
+F 1 "UART" H 13630 4451 50  0000 L CNN
+F 2 "" H 13550 4550 50  0001 C CNN
+F 3 "~" H 13550 4550 50  0001 C CNN
+	1    13550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:GND #PWR?
+U 1 1 635CE777
+P 13350 4450
+F 0 "#PWR?" H 13350 4200 50  0001 C CNN
+F 1 "GND" V 13355 4322 50  0000 R CNN
+F 2 "" H 13350 4450 60  0000 C CNN
+F 3 "" H 13350 4450 60  0000 C CNN
+	1    13350 4450
+	0    1    1    0   
+$EndComp
+Text GLabel 13350 4550 0    50   Input ~ 0
+UART1_TX
+Text GLabel 13350 4650 0    50   Input ~ 0
+UART1_RX
+$Comp
+L S3-OLinuXino_Rev_A:+3.3V #PWR?
+U 1 1 63623CC5
+P 13350 4750
+F 0 "#PWR?" H 13350 4600 50  0001 C CNN
+F 1 "+3.3V" V 13365 4878 50  0000 L CNN
+F 2 "" H 13350 4750 60  0000 C CNN
+F 3 "" H 13350 4750 60  0000 C CNN
+	1    13350 4750
+	0    -1   1    0   
+$EndComp
+Text GLabel 1750 1400 0    50   Input ~ 0
+GPIO_LED1
+$Comp
+L Device:LED D?
+U 1 1 63694300
+P 14250 4700
+F 0 "D?" V 14289 4583 50  0000 R CNN
+F 1 "LED" V 14198 4583 50  0000 R CNN
+F 2 "" H 14250 4700 50  0001 C CNN
+F 3 "~" H 14250 4700 50  0001 C CNN
+	1    14250 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 14250 4350 1    50   Input ~ 0
+GPIO_LED1
+$Comp
+L Device:R_Small R?
+U 1 1 636ADED4
+P 14250 4450
+F 0 "R?" H 14191 4496 50  0000 R CNN
+F 1 "5k1" H 14191 4405 50  0000 R CNN
+F 2 "otter:C_0402" H 14250 4450 50  0001 C CNN
+F 3 "~" H 14250 4450 50  0001 C CNN
+	1    14250 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 3250 0    50   Input ~ 0
+AP-WAKE-BT
+Text GLabel 1400 3350 0    50   Input ~ 0
+BT-DIS-N
+$Comp
+L Device:R_Small R?
+U 1 1 637EF37D
+P 1600 3350
+F 0 "R?" V 1550 3200 50  0000 C CNN
+F 1 "DNP" V 1600 3350 50  0000 C CNN
+F 2 "otter:C_0402" H 1600 3350 50  0001 C CNN
+F 3 "~" H 1600 3350 50  0001 C CNN
+	1    1600 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3350 1500 3350
+Wire Wire Line
+	1700 3350 1750 3350
+Wire Wire Line
+	1750 3250 1400 3250
+NoConn ~ 1750 2850
+NoConn ~ 1750 2950
+NoConn ~ 1750 3050
+NoConn ~ 1750 3150
+NoConn ~ 1750 3450
+NoConn ~ 1750 3550
+NoConn ~ 1750 3650
+NoConn ~ 1750 3750
+NoConn ~ 1750 3850
+Text GLabel 4350 3050 2    50   Input ~ 0
+WL-PMU-EN
+Text GLabel 4350 2750 2    50   Input ~ 0
+MIPI-SDA
+Text GLabel 4350 2850 2    50   Input ~ 0
+MIPI-SCK
+Text GLabel 4350 2650 2    50   Input ~ 0
+MIPI-RESET
+Text GLabel 4350 2550 2    50   Input ~ 0
+MIPI-PWDN
+$Comp
+L S3-OLinuXino_Rev_A:+3.3V #PWR?
+U 1 1 63B28C18
+P 1350 2500
+F 0 "#PWR?" H 1350 2350 50  0001 C CNN
+F 1 "+3.3V" H 1350 2640 50  0000 C CNN
+F 2 "" H 1350 2500 60  0000 C CNN
+F 3 "" H 1350 2500 60  0000 C CNN
+	1    1350 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2500 1350 2550
+Wire Wire Line
+	1650 2550 1750 2550
+Wire Wire Line
+	1650 2550 1650 2650
+Wire Wire Line
+	1650 2650 1750 2650
+$Comp
+L Device:C_Small C?
+U 1 1 63B28C22
+P 1350 2700
+F 0 "C?" H 1258 2746 50  0000 R CNN
+F 1 "100n" H 1258 2655 50  0000 R CNN
+F 2 "otter:C_0402" H 1350 2700 50  0001 C CNN
+F 3 "~" H 1350 2700 50  0001 C CNN
+	1    1350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2550 1350 2550
+Connection ~ 1650 2550
+Connection ~ 1350 2550
+Wire Wire Line
+	1350 2550 1350 2600
+$Comp
+L otter:GND #PWR?
+U 1 1 63B28C2C
+P 1350 2800
+F 0 "#PWR?" H 1350 2550 50  0001 C CNN
+F 1 "GND" H 1355 2627 50  0000 C CNN
+F 2 "" H 1350 2800 60  0000 C CNN
+F 3 "" H 1350 2800 60  0000 C CNN
+	1    1350 2800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4350 2950
+NoConn ~ 4350 3150
+NoConn ~ 4350 3250
+NoConn ~ 4350 3350
+NoConn ~ 4350 3450
+NoConn ~ 4350 3550
+NoConn ~ 4350 3650
+NoConn ~ 4350 3750
+NoConn ~ 4350 3850
+NoConn ~ 4350 1300
+NoConn ~ 4350 1400
+NoConn ~ 4350 1500
+NoConn ~ 4350 1600
+NoConn ~ 4350 1700
+NoConn ~ 4350 1800
+NoConn ~ 4350 1900
+NoConn ~ 4350 2100
+NoConn ~ 4350 1200
+NoConn ~ 4350 1100
+NoConn ~ 4350 1000
+NoConn ~ 4350 900 
+$Comp
+L otter:AllWinner-S3(FBGA-234) U?
+U 1 1 67AEEB6A
+P 3050 1500
+F 0 "U?" H 3050 2365 50  0000 C CNN
+F 1 "AllWinner-S3(FBGA-234)" H 3050 2274 50  0000 C CNN
+F 2 "OLIMEX_IC-FP:FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)" H 3050 -550 50  0001 C CNN
+F 3 "" H 3250 3200 50  0001 C CNN
+	1    3050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:AllWinner-S3(FBGA-234) U?
+U 2 1 67AF4AB4
+P 3050 5500
+F 0 "U?" H 3100 6965 50  0000 C CNN
+F 1 "AllWinner-S3(FBGA-234)" H 3100 6874 50  0000 C CNN
+F 2 "OLIMEX_IC-FP:FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)" H 3050 3450 50  0001 C CNN
+F 3 "" H 3250 7200 50  0001 C CNN
+	2    3050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:AllWinner-S3(FBGA-234) U?
+U 3 1 67AFCAD8
+P 3050 3150
+F 0 "U?" H 3050 4015 50  0000 C CNN
+F 1 "AllWinner-S3(FBGA-234)" H 3050 3924 50  0000 C CNN
+F 2 "OLIMEX_IC-FP:FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)" H 3050 1100 50  0001 C CNN
+F 3 "" H 3250 4850 50  0001 C CNN
+	3    3050 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 1300 0    50   Input ~ 0
+GPIO_LED2
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR?
+U 1 1 67BFC606
+P 14600 4850
+F 0 "#PWR?" H 14600 4600 50  0001 C CNN
+F 1 "GND" H 14600 4700 50  0000 C CNN
+F 2 "" H 14600 4850 60  0000 C CNN
+F 3 "" H 14600 4850 60  0000 C CNN
+	1    14600 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 67BFC60C
+P 14600 4700
+F 0 "D?" V 14639 4583 50  0000 R CNN
+F 1 "LED" V 14548 4583 50  0000 R CNN
+F 2 "" H 14600 4700 50  0001 C CNN
+F 3 "~" H 14600 4700 50  0001 C CNN
+	1    14600 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 14600 4350 1    50   Input ~ 0
+GPIO_LED2
+$Comp
+L Device:R_Small R?
+U 1 1 67BFC613
+P 14600 4450
+F 0 "R?" H 14541 4496 50  0000 R CNN
+F 1 "5k1" H 14541 4405 50  0000 R CNN
+F 2 "otter:C_0402" H 14600 4450 50  0001 C CNN
+F 3 "~" H 14600 4450 50  0001 C CNN
+	1    14600 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 900  0    50   Input ~ 0
+BT-UART-RX
+Text GLabel 1750 1000 0    50   Input ~ 0
+BT-UART-TX
+Text GLabel 1750 1100 0    50   Input ~ 0
+BT-UART-CTS
+$Comp
+L Device:R_Small R?
+U 1 1 67C10E27
+P 1050 1200
+F 0 "R?" V 1246 1200 50  0000 C CNN
+F 1 "5k1" V 1155 1200 50  0000 C CNN
+F 2 "otter:C_0402" H 1050 1200 50  0001 C CNN
+F 3 "~" H 1050 1200 50  0001 C CNN
+	1    1050 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	900  1200 950  1200
+Wire Wire Line
+	1150 1200 1750 1200
+Text GLabel 1750 1500 0    50   Input ~ 0
+PB6\TWI0-SCK
+Text GLabel 1750 1600 0    50   Input ~ 0
+PB7\TWI0-SDA
+Text GLabel 1750 1700 0    50   Input ~ 0
+PB8\TWI1-SCK
+Text GLabel 1750 1800 0    50   Input ~ 0
+PB9\TWI1-SDA
+Text GLabel 1750 1900 0    50   Input ~ 0
+USB-VBUSDET
+Text GLabel 1750 2000 0    50   Input ~ 0
+WL-WAKE-AP
+Text GLabel 1750 2100 0    50   Input ~ 0
+HP(MIC)-DET
+$Comp
+L Memory_EEPROM:AT24CS16-MAHM U?
+U 1 1 67C8CAE1
+P 14150 7450
+F 0 "U?" H 13820 7496 50  0000 R CNN
+F 1 "AT24CS16-MAHM" H 13820 7405 50  0000 R CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm" H 14150 7450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf" H 14150 7450 50  0001 C CNN
+	1    14150 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 7050 14150 7100
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR?
+U 1 1 67C92F19
+P 14150 7750
+F 0 "#PWR?" H 14150 7500 50  0001 C CNN
+F 1 "GND" H 14150 7600 50  0000 C CNN
+F 2 "" H 14150 7750 60  0000 C CNN
+F 3 "" H 14150 7750 60  0000 C CNN
+	1    14150 7750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 67C9846E
+P 13850 7100
+F 0 "C?" V 14079 7100 50  0000 C CNN
+F 1 "100n" V 13988 7100 50  0000 C CNN
+F 2 "otter:C_0402" H 13850 7100 50  0001 C CNN
+F 3 "~" H 13850 7100 50  0001 C CNN
+	1    13850 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR?
+U 1 1 67C9D93C
+P 13650 7150
+F 0 "#PWR?" H 13650 6900 50  0001 C CNN
+F 1 "GND" H 13650 7000 50  0000 C CNN
+F 2 "" H 13650 7150 60  0000 C CNN
+F 3 "" H 13650 7150 60  0000 C CNN
+	1    13650 7150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13750 7100 13650 7100
+Wire Wire Line
+	13650 7100 13650 7150
+Connection ~ 14150 7100
+Wire Wire Line
+	14150 7100 14150 7150
+Text GLabel 15000 7450 2    50   Input ~ 0
+PB8\TWI1-SCK
+Text GLabel 15000 7350 2    50   Input ~ 0
+PB9\TWI1-SDA
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR?
+U 1 1 67CB74FC
+P 14600 7600
+F 0 "#PWR?" H 14600 7350 50  0001 C CNN
+F 1 "GND" H 14600 7450 50  0000 C CNN
+F 2 "" H 14600 7600 60  0000 C CNN
+F 3 "" H 14600 7600 60  0000 C CNN
+	1    14600 7600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 7550 14600 7550
+Wire Wire Line
+	14600 7550 14600 7600
+Wire Wire Line
+	13950 7100 14150 7100
+$Comp
+L Device:R_Small R?
+U 1 1 67CD5CEB
+P 14650 7200
+F 0 "R?" H 14591 7154 50  0000 R CNN
+F 1 "5k1" H 14591 7245 50  0000 R CNN
+F 2 "otter:C_0402" H 14650 7200 50  0001 C CNN
+F 3 "~" H 14650 7200 50  0001 C CNN
+	1    14650 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 67CD9C01
+P 14900 7200
+F 0 "R?" H 14841 7154 50  0000 R CNN
+F 1 "5k1" H 14841 7245 50  0000 R CNN
+F 2 "otter:C_0402" H 14900 7200 50  0001 C CNN
+F 3 "~" H 14900 7200 50  0001 C CNN
+	1    14900 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15000 7350 14650 7350
+Wire Wire Line
+	14550 7450 14900 7450
+Wire Wire Line
+	14650 7300 14650 7350
+Connection ~ 14650 7350
+Wire Wire Line
+	14650 7350 14550 7350
+Wire Wire Line
+	14900 7300 14900 7450
+Connection ~ 14900 7450
+Wire Wire Line
+	14900 7450 15000 7450
+Wire Wire Line
+	14900 7100 14900 7050
+Wire Wire Line
+	14900 7050 14650 7050
+Wire Wire Line
+	14650 7050 14650 7100
+$Comp
+L S3-OLinuXino_Rev_A:+3.3V #PWR?
+U 1 1 67CFCECB
+P 14650 7000
+F 0 "#PWR?" H 14650 6850 50  0001 C CNN
+F 1 "+3.3V" H 14650 7140 50  0000 C CNN
+F 2 "" H 14650 7000 60  0000 C CNN
+F 3 "" H 14650 7000 60  0000 C CNN
+	1    14650 7000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14650 7000 14650 7050
+Connection ~ 14650 7050
+$EndSCHEMATC
