@@ -2169,15 +2169,15 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 67E47B05
-P 14250 8050
+P 14250 8150
 AR Path="/67E47B05" Ref="J?"  Part="1" 
 AR Path="/602ACDF9/67E47B05" Ref="J4"  Part="1" 
-F 0 "J4" H 14330 8042 50  0000 L CNN
-F 1 "OTG" H 14330 7951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 14250 8050 50  0001 C CNN
-F 3 "~" H 14250 8050 50  0001 C CNN
-	1    14250 8050
-	1    0    0    -1  
+F 0 "J4" H 14330 8142 50  0000 L CNN
+F 1 "OTG" H 14330 8051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 14250 8150 50  0001 C CNN
+F 3 "~" H 14250 8150 50  0001 C CNN
+	1    14250 8150
+	1    0    0    1   
 $EndComp
 $Comp
 L S3-OLinuXino_Rev_A:+5V_USBOTG #PWR?
@@ -2210,9 +2210,9 @@ F 3 "~" H 14600 8200 50  0001 C CNN
 	1    14600 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 14050 8050 0    50   Input ~ 0
-USB-D_N
 Text GLabel 14050 8150 0    50   Input ~ 0
+USB-D_N
+Text GLabel 14050 8050 0    50   Input ~ 0
 USB-D_P
 $Comp
 L S3-OLinuXino_Rev_A:GND #PWR?
