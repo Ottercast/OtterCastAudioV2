@@ -1,4 +1,4 @@
-17558718579925197
+17568351563871197
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76993,6 +76993,13 @@ ESP-wroom-32
 39
 39
 otter
+FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)
+
+
+0
+234
+234
+otter
 FH35C-25S
 
 
@@ -77091,6 +77098,13 @@ K3-2235S-K1
 6
 6
 otter
+KH-5220-A56
+
+
+0
+5
+3
+otter
 Keystone_3621
 
 
@@ -77104,6 +77118,13 @@ LED-Strip
 0
 3
 3
+otter
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
 otter
 LED_1206_3216_BACK
 LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -77238,6 +77259,13 @@ PH-MVF-5365
 1
 1
 otter
+PJ-3270
+
+
+0
+5
+5
+otter
 PMW33xx
 
 
@@ -77364,6 +77392,13 @@ QFN DFN_QFN
 29
 25
 otter
+QFN-48-1EP_6x6mm_P0.4mm_EP4.05x4.05mm
+QFN, 48 Pin (https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1p5.pdf#page=20), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+58
+49
+otter
 QFN-48-1EP_7x7mm_P0.5mm_EP2.6x2.6mm
 QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -77489,6 +77524,13 @@ SSOP SO
 0
 8
 8
+otter
+STL8723BS
+
+
+0
+44
+44
 otter
 SV01A103AEA01R00
 SV01A103A SV01A103AEA01R00
