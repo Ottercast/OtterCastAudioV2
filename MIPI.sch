@@ -192,8 +192,6 @@ $EndComp
 Wire Wire Line
 	4100 4900 4400 4900
 Wire Wire Line
-	4200 5300 4100 5300
-Wire Wire Line
 	4100 4400 4550 4400
 $Comp
 L S3-OLinuXino_Rev_A:GND #PWR?
@@ -791,19 +789,6 @@ Wire Wire Line
 Connection ~ 2550 5600
 Wire Wire Line
 	2550 5600 2500 5600
-$Comp
-L Device:R_Small R?
-U 1 1 687D2D86
-P 4300 5300
-AR Path="/687D2D86" Ref="R?"  Part="1" 
-AR Path="/620E795B/687D2D86" Ref="R85"  Part="1" 
-F 0 "R85" V 4404 5300 50  0000 C CNN
-F 1 "0" V 4495 5300 50  0000 C CNN
-F 2 "otter:C_0402" H 4300 5300 50  0001 C CNN
-F 3 "~" H 4300 5300 50  0001 C CNN
-	1    4300 5300
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:Crystal_GND24_Small Y3
 U 1 1 687E2CB7
@@ -1798,4 +1783,6 @@ F 3 "~" H 10200 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10300 4200 10550 4200
+Wire Wire Line
+	4100 5300 4400 5300
 $EndSCHEMATC
