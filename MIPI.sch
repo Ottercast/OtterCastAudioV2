@@ -222,20 +222,6 @@ F 3 "" H 5350 3400 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 621FABB9
-P 1900 2550
-AR Path="/5D8A1FAC/621FABB9" Ref="#PWR?"  Part="1" 
-AR Path="/621FABB9" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/621FABB9" Ref="#PWR0259"  Part="1" 
-F 0 "#PWR0259" H 1900 2300 50  0001 C CNN
-F 1 "GND" V 1900 2350 50  0000 C CNN
-F 2 "" H 1900 2550 60  0000 C CNN
-F 3 "" H 1900 2550 60  0000 C CNN
-	1    1900 2550
-	0    1    -1   0   
-$EndComp
-$Comp
 L S3-OLinuXino_Rev_A:+1.1V #PWRV?
 U 1 1 621FABBF
 P 4800 3500
@@ -293,8 +279,6 @@ F 3 "" H 10550 4100 60  0000 C CNN
 	1    10550 4100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4100 2200 4750 2200
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V_RTC #PWR?
 U 1 1 621FAC6A
@@ -312,30 +296,16 @@ $EndComp
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V #PWR?
 U 1 1 621FACF7
-P 4750 2150
+P 4100 2200
 AR Path="/5D8A1FAC/621FACF7" Ref="#PWR?"  Part="1" 
 AR Path="/621FACF7" Ref="#PWR?"  Part="1" 
 AR Path="/620E795B/621FACF7" Ref="#PWR0266"  Part="1" 
-F 0 "#PWR0266" H 4750 2000 50  0001 C CNN
-F 1 "+3.3V" H 4765 2323 50  0000 C CNN
-F 2 "" H 4750 2150 60  0000 C CNN
-F 3 "" H 4750 2150 60  0000 C CNN
-	1    4750 2150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 621FACFE
-P 4750 2450
-AR Path="/5D8A1FAC/621FACFE" Ref="#PWR?"  Part="1" 
-AR Path="/621FACFE" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/621FACFE" Ref="#PWR0267"  Part="1" 
-F 0 "#PWR0267" H 4750 2200 50  0001 C CNN
-F 1 "GND" V 4750 2250 50  0000 C CNN
-F 2 "" H 4750 2450 60  0000 C CNN
-F 3 "" H 4750 2450 60  0000 C CNN
-	1    4750 2450
-	-1   0    0    -1  
+F 0 "#PWR0266" H 4100 2050 50  0001 C CNN
+F 1 "+3.3V" V 4115 2328 50  0000 L CNN
+F 2 "" H 4100 2200 60  0000 C CNN
+F 3 "" H 4100 2200 60  0000 C CNN
+	1    4100 2200
+	0    1    -1   0   
 $EndComp
 Text GLabel 10550 3900 0    50   Input ~ 0
 MIPI-SDA
@@ -446,28 +416,6 @@ $EndComp
 Wire Wire Line
 	1100 3800 1150 3800
 Connection ~ 1150 3800
-$Comp
-L Device:C_Small C?
-U 1 1 682DD643
-P 1950 2450
-AR Path="/682DD643" Ref="C?"  Part="1" 
-AR Path="/620E795B/682DD643" Ref="C84"  Part="1" 
-F 0 "C84" H 2042 2496 50  0000 L CNN
-F 1 "100n" H 2042 2405 50  0000 L CNN
-F 2 "otter:C_0402" H 1950 2450 50  0001 C CNN
-F 3 "~" H 1950 2450 50  0001 C CNN
-	1    1950 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 2350 1950 2300
-Wire Wire Line
-	1950 2300 2700 2300
-Wire Wire Line
-	1900 2550 1950 2550
-Wire Wire Line
-	1900 2300 1950 2300
-Connection ~ 1950 2300
 Wire Wire Line
 	2000 1900 2100 1900
 Text GLabel 4100 1900 2    50   Input ~ 0
@@ -494,24 +442,6 @@ Text GLabel 4100 2400 2    50   Input ~ 0
 MIPI-D3_P
 Text GLabel 4100 2300 2    50   Input ~ 0
 MIPI-D3_N
-$Comp
-L Device:C_Small C?
-U 1 1 6839075B
-P 4750 2350
-AR Path="/6839075B" Ref="C?"  Part="1" 
-AR Path="/620E795B/6839075B" Ref="C91"  Part="1" 
-F 0 "C91" H 4842 2396 50  0000 L CNN
-F 1 "100n" H 4842 2305 50  0000 L CNN
-F 2 "otter:C_0402" H 4750 2350 50  0001 C CNN
-F 3 "~" H 4750 2350 50  0001 C CNN
-	1    4750 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 2250 4750 2200
-Connection ~ 4750 2200
-Wire Wire Line
-	4750 2150 4750 2200
 Text GLabel 10550 4400 0    50   Input ~ 0
 MIPI-CK_P
 Text GLabel 10550 4500 0    50   Input ~ 0
@@ -1678,12 +1608,22 @@ L Device:C_Small C?
 U 1 1 5FFEE453
 P 1300 3650
 AR Path="/5FFEE453" Ref="C?"  Part="1" 
-AR Path="/620E795B/5FFEE453" Ref="C?"  Part="1" 
-F 0 "C?" H 1392 3696 50  0000 L CNN
+AR Path="/620E795B/5FFEE453" Ref="C3"  Part="1" 
+F 0 "C3" H 1392 3696 50  0000 L CNN
 F 1 "100n" H 1392 3605 50  0000 L CNN
 F 2 "otter:C_0402" H 1300 3650 50  0001 C CNN
 F 3 "~" H 1300 3650 50  0001 C CNN
 	1    1300 3650
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2700 4300
+NoConn ~ 2700 4400
+NoConn ~ 2700 4500
+NoConn ~ 2700 4600
+NoConn ~ 2700 4700
+NoConn ~ 2700 4800
+NoConn ~ 2700 4900
+NoConn ~ 2700 5000
+Wire Wire Line
+	1900 2300 2700 2300
 $EndSCHEMATC
