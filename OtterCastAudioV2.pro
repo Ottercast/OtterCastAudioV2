@@ -1,4 +1,4 @@
-update=Mon 16 Nov 2020 09:40:28 AM CET
+update=Mon 16 Nov 2020 12:17:50 PM CET
 version=1
 last_client=kicad
 [general]
@@ -16,7 +16,7 @@ LibDir=
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -34,10 +34,11 @@ TrackWidth3=0.2
 TrackWidth4=0.3
 TrackWidth5=0.4
 TrackWidth6=0.5
-TrackWidth7=0.8
-TrackWidth8=1
-TrackWidth9=2
-TrackWidth10=3
+TrackWidth7=0.6
+TrackWidth8=0.8
+TrackWidth9=1
+TrackWidth10=2
+TrackWidth11=3
 ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.45
@@ -48,7 +49,7 @@ dPairViaGap1=0.25
 dPairWidth2=0.1524
 dPairGap2=0.127
 dPairViaGap2=0.127
-SilkLineWidth=0.12
+SilkLineWidth=0.09999999999999999
 SilkTextSizeV=1
 SilkTextSizeH=1
 SilkTextSizeThickness=0.15
@@ -79,11 +80,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
