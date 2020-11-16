@@ -279,8 +279,6 @@ F 3 "" H 10550 4100 60  0000 C CNN
 	1    10550 4100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4100 2200 4750 2200
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V_RTC #PWR?
 U 1 1 621FAC6A
@@ -298,16 +296,16 @@ $EndComp
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V #PWR?
 U 1 1 621FACF7
-P 4750 2150
+P 4100 2200
 AR Path="/5D8A1FAC/621FACF7" Ref="#PWR?"  Part="1" 
 AR Path="/621FACF7" Ref="#PWR?"  Part="1" 
 AR Path="/620E795B/621FACF7" Ref="#PWR0266"  Part="1" 
-F 0 "#PWR0266" H 4750 2000 50  0001 C CNN
-F 1 "+3.3V" H 4765 2323 50  0000 C CNN
-F 2 "" H 4750 2150 60  0000 C CNN
-F 3 "" H 4750 2150 60  0000 C CNN
-	1    4750 2150
-	-1   0    0    -1  
+F 0 "#PWR0266" H 4100 2050 50  0001 C CNN
+F 1 "+3.3V" V 4115 2328 50  0000 L CNN
+F 2 "" H 4100 2200 60  0000 C CNN
+F 3 "" H 4100 2200 60  0000 C CNN
+	1    4100 2200
+	0    1    -1   0   
 $EndComp
 Text GLabel 10550 3900 0    50   Input ~ 0
 MIPI-SDA
@@ -444,8 +442,6 @@ Text GLabel 4100 2400 2    50   Input ~ 0
 MIPI-D3_P
 Text GLabel 4100 2300 2    50   Input ~ 0
 MIPI-D3_N
-Wire Wire Line
-	4750 2150 4750 2200
 Text GLabel 10550 4400 0    50   Input ~ 0
 MIPI-CK_P
 Text GLabel 10550 4500 0    50   Input ~ 0

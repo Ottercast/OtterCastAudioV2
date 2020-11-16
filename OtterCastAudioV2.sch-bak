@@ -413,7 +413,7 @@ U 1 1 635CE136
 P 7400 10400
 F 0 "J1" H 7480 10392 50  0000 L CNN
 F 1 "UART" H 7480 10301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 7400 10400 50  0001 C CNN
+F 2 "otter:PinHeader_1x04_P2.00mm_Vertical_nosilk_center" H 7400 10400 50  0001 C CNN
 F 3 "~" H 7400 10400 50  0001 C CNN
 	1    7400 10400
 	1    0    0    -1  
@@ -429,9 +429,9 @@ F 3 "" H 7200 10300 60  0000 C CNN
 	1    7200 10300
 	0    1    1    0   
 $EndComp
-Text GLabel 7200 10400 0    50   Input ~ 0
-UART1_TX
 Text GLabel 7200 10500 0    50   Input ~ 0
+UART1_TX
+Text GLabel 7200 10400 0    50   Input ~ 0
 UART1_RX
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V #PWR0108

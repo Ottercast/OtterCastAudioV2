@@ -1,4 +1,4 @@
-17571562620023197
+17574773684470197
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -77109,7 +77109,7 @@ KH-5220-A56
 
 
 0
-5
+7
 3
 otter
 Keystone_3621
@@ -77195,6 +77195,13 @@ LV8548M_reverse
 0
 10
 10
+otter
+L_0402
+Capacitor 0402
+C Capacitor 0402
+0
+2
+2
 otter
 M3 Screw
 
@@ -77552,6 +77559,13 @@ SV01A103A SV01A103AEA01R00
 0
 4
 4
+otter
+SW_SPST_PTS810
+C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf
+SPST Button Switch
+0
+4
+2
 otter
 Screw_Terminal_6x6x6mm
 
