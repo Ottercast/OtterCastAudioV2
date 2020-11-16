@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4650 5200 2    60   Input ~ 0
-USB-ID
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V #PWR032
 U 1 1 5D6CDF56
@@ -570,7 +568,6 @@ F 3 "" H 1350 2800 60  0000 C CNN
 	1    1350 2800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4350 2950
 NoConn ~ 4350 3150
 NoConn ~ 4350 3250
 NoConn ~ 4350 3350
@@ -611,17 +608,6 @@ F 1 "AllWinner-S3(FBGA-234)" H 3100 6874 50  0000 C CNN
 F 2 "OLIMEX_IC-FP:FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)" H 3050 3450 50  0001 C CNN
 F 3 "" H 3250 7200 50  0001 C CNN
 	2    3050 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L otter:AllWinner-S3(FBGA-234) U?
-U 3 1 67AFCAD8
-P 3050 3150
-F 0 "U?" H 3050 4015 50  0000 C CNN
-F 1 "AllWinner-S3(FBGA-234)" H 3050 3924 50  0000 C CNN
-F 2 "OLIMEX_IC-FP:FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)" H 3050 1100 50  0001 C CNN
-F 3 "" H 3250 4850 50  0001 C CNN
-	3    3050 3150
 	1    0    0    -1  
 $EndComp
 Text GLabel 1750 1300 0    50   Input ~ 0
@@ -770,28 +756,6 @@ Wire Wire Line
 	14600 7550 14600 7600
 Wire Wire Line
 	13950 7100 14150 7100
-$Comp
-L Device:R_Small R?
-U 1 1 67CD5CEB
-P 14650 7200
-F 0 "R?" H 14591 7154 50  0000 R CNN
-F 1 "5k1" H 14591 7245 50  0000 R CNN
-F 2 "otter:C_0402" H 14650 7200 50  0001 C CNN
-F 3 "~" H 14650 7200 50  0001 C CNN
-	1    14650 7200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 67CD9C01
-P 14900 7200
-F 0 "R?" H 14841 7154 50  0000 R CNN
-F 1 "5k1" H 14841 7245 50  0000 R CNN
-F 2 "otter:C_0402" H 14900 7200 50  0001 C CNN
-F 3 "~" H 14900 7200 50  0001 C CNN
-	1    14900 7200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	15000 7350 14650 7350
 Wire Wire Line
@@ -826,4 +790,45 @@ $EndComp
 Wire Wire Line
 	14650 7000 14650 7050
 Connection ~ 14650 7050
+Text GLabel 4650 5200 2    50   Input ~ 0
+USB-ID
+Text GLabel 4350 2950 2    50   Input ~ 0
+MIPI-MSCK
+$Comp
+L otter:AllWinner-S3(FBGA-234) U?
+U 3 1 67AFCAD8
+P 3050 3150
+F 0 "U?" H 3050 4015 50  0000 C CNN
+F 1 "AllWinner-S3(FBGA-234)" H 3050 3924 50  0000 C CNN
+F 2 "OLIMEX_IC-FP:FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)" H 3050 1100 50  0001 C CNN
+F 3 "" H 3250 4850 50  0001 C CNN
+	3    3050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FFC46C5
+P 14650 7200
+AR Path="/5FFC46C5" Ref="R?"  Part="1" 
+AR Path="/602ACDF9/5FFC46C5" Ref="R?"  Part="1" 
+F 0 "R?" H 14709 7246 50  0000 L CNN
+F 1 "2.2k" H 14709 7155 50  0000 L CNN
+F 2 "otter:C_0402" H 14650 7200 50  0001 C CNN
+F 3 "~" H 14650 7200 50  0001 C CNN
+	1    14650 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FFC572E
+P 14900 7200
+AR Path="/5FFC572E" Ref="R?"  Part="1" 
+AR Path="/602ACDF9/5FFC572E" Ref="R?"  Part="1" 
+F 0 "R?" H 14959 7246 50  0000 L CNN
+F 1 "2.2k" H 14959 7155 50  0000 L CNN
+F 2 "otter:C_0402" H 14900 7200 50  0001 C CNN
+F 3 "~" H 14900 7200 50  0001 C CNN
+	1    14900 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -266,11 +266,7 @@ F 3 "" H 4800 3500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Notes Line
-	11300 800  7400 800 
-Wire Notes Line
 	11300 800  11300 2900
-Text Notes 7900 1100 0    150  Italic 30
-RPi-MiPi_Camera
 $Comp
 L S3-OLinuXino_Rev_A:GND #PWR?
 U 1 1 621FAC24
@@ -357,95 +353,6 @@ F 3 "" H 5950 4350 60  0001 C CNN
 	1    5950 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 2200 9400 2200
-Wire Wire Line
-	10100 2300 9400 2300
-Text Label 9200 1900 0    60   Italic 12
-MCSI_CK-
-Text Label 9200 1600 0    60   Italic 12
-MCSI_DATA1-
-Text Label 9200 1700 0    60   Italic 12
-MCSI_DATA1+
-Text Label 9200 2000 0    60   Italic 12
-MCSI_CK+
-Text Label 9200 1300 0    60   Italic 12
-MCSI_DATA0-
-Text Label 9200 1400 0    60   Italic 12
-MCSI_DATA0+
-Wire Wire Line
-	10100 1500 9100 1500
-Wire Wire Line
-	10100 2100 9100 2100
-Wire Wire Line
-	10100 2400 9400 2400
-Wire Wire Line
-	10100 2500 9400 2500
-Wire Wire Line
-	10100 2600 9100 2600
-Wire Wire Line
-	10100 1800 9100 1800
-Wire Wire Line
-	10100 1200 9100 1200
-$Comp
-L S3-OLinuXino_Rev_A:RPi_LCD-MiPi(1-1734248-5) RPi_CAMERA?
-U 1 1 621FACD3
-P 10400 1900
-AR Path="/5D8A1FAC/621FACD3" Ref="RPi_CAMERA?"  Part="1" 
-AR Path="/621FACD3" Ref="RPi_CAMERA?"  Part="1" 
-AR Path="/620E795B/621FACD3" Ref="RPi_CAMERA?"  Part="1" 
-F 0 "RPi_CAMERA?" H 10350 2750 50  0000 C CNN
-F 1 "1.0mm-pitch_ZIF_SMT-15P" H 10350 1050 50  0000 C CNN
-F 2 "OLIMEX_Connectors-FP:TE_1-1734248-5" H 10400 900 40  0001 C CNN
-F 3 "" H 10400 1700 60  0000 C CNN
-	1    10400 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 2600 11000 2600
-Wire Wire Line
-	10600 2500 11000 2500
-Wire Wire Line
-	10600 2400 11000 2400
-Wire Wire Line
-	10600 2000 11000 2000
-Wire Wire Line
-	10600 1900 11000 1900
-Wire Wire Line
-	10600 1700 11000 1700
-Wire Wire Line
-	10600 2200 11000 2200
-Wire Wire Line
-	10600 2100 11000 2100
-Wire Wire Line
-	10600 1200 11000 1200
-Wire Wire Line
-	10600 1300 11000 1300
-Wire Wire Line
-	10600 2300 11000 2300
-Wire Wire Line
-	10600 1800 11000 1800
-Wire Wire Line
-	10600 1500 11000 1500
-Wire Wire Line
-	10600 1400 11000 1400
-Wire Wire Line
-	10600 1600 11000 1600
-NoConn ~ 11000 1600
-NoConn ~ 11000 1400
-NoConn ~ 11000 1500
-NoConn ~ 11000 1800
-NoConn ~ 11000 2300
-NoConn ~ 11000 1300
-NoConn ~ 11000 1200
-NoConn ~ 11000 2100
-NoConn ~ 11000 2200
-NoConn ~ 11000 1700
-NoConn ~ 11000 1900
-NoConn ~ 11000 2000
-NoConn ~ 11000 2400
-NoConn ~ 11000 2500
-NoConn ~ 11000 2600
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V #PWR?
 U 1 1 621FACF7
@@ -1767,4 +1674,6 @@ Wire Wire Line
 	4900 4200 5100 4200
 Wire Wire Line
 	4100 3400 5300 3400
+Text GLabel 8100 2700 2    50   Input ~ 0
+MIPI-MSCK
 $EndSCHEMATC
