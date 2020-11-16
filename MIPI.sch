@@ -1588,31 +1588,6 @@ NoConn ~ 2700 4900
 NoConn ~ 2700 5000
 Wire Wire Line
 	1900 2300 2700 2300
-$Comp
-L otter:HR961160C J?
-U 1 1 60385DAB
-P 7550 2300
-F 0 "J?" H 7020 2346 50  0000 R CNN
-F 1 "HR961160C" H 7020 2255 50  0000 R CNN
-F 2 "otter:HR961160C" H 7150 1750 50  0001 C CNN
-F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf" H 7135 2065 50  0001 L TNN
-	1    7550 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 603969A5
-P 8200 2750
-AR Path="/5D8A1FAC/603969A5" Ref="#PWR?"  Part="1" 
-AR Path="/603969A5" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/603969A5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8200 2500 50  0001 C CNN
-F 1 "GND" H 8200 2600 50  0000 C CNN
-F 2 "" H 8200 2750 60  0000 C CNN
-F 3 "" H 8200 2750 60  0000 C CNN
-	1    8200 2750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8200 2100 8250 2100
 Wire Wire Line
@@ -1647,4 +1622,15 @@ Wire Wire Line
 Connection ~ 9350 2500
 Wire Wire Line
 	9350 2500 9350 2550
+$Comp
+L otter:49F-1201GYD2NL J?
+U 1 1 60475CA8
+P 7550 2300
+F 0 "J?" H 7020 2346 50  0000 R CNN
+F 1 "49F-1201GYD2NL" H 7020 2255 50  0000 R CNN
+F 2 "otter:49F-1201GYDXNL" H 7150 1750 50  0001 C CNN
+F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf" H 7135 2065 50  0001 L TNN
+	1    7550 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
