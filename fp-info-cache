@@ -1,4 +1,4 @@
-17568351563955197
+17571562580236197
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76902,6 +76902,13 @@ C Capacitor 0805
 2
 2
 otter
+Crystal_SMD_3215-2Pin_3.2x1.5mm
+SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf
+SMD SMT Crystal
+0
+2
+2
+otter
 DMS
 
 
@@ -77314,6 +77321,13 @@ Through hole pin header THT 1x03 2.00mm single row
 0
 6
 3
+otter
+PinHeader_1x04_P2.00mm_Vertical_nosilk_center
+Through hole straight pin header, 1x04, 2.00mm pitch, single row
+Through hole pin header THT 1x04 2.00mm single row
+0
+4
+4
 otter
 PinHeader_1x04_P2.54mm_Horizontal
 Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row

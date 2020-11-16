@@ -2174,7 +2174,7 @@ AR Path="/67E47B05" Ref="J?"  Part="1"
 AR Path="/602ACDF9/67E47B05" Ref="J4"  Part="1" 
 F 0 "J4" H 14330 8142 50  0000 L CNN
 F 1 "OTG" H 14330 8051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 14250 8150 50  0001 C CNN
+F 2 "otter:PinHeader_1x04_P2.00mm_Vertical_nosilk_center" H 14250 8150 50  0001 C CNN
 F 3 "~" H 14250 8150 50  0001 C CNN
 	1    14250 8150
 	1    0    0    1   
@@ -2210,9 +2210,9 @@ F 3 "~" H 14600 8200 50  0001 C CNN
 	1    14600 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 14050 8150 0    50   Input ~ 0
-USB-D_N
 Text GLabel 14050 8050 0    50   Input ~ 0
+USB-D_N
+Text GLabel 14050 8150 0    50   Input ~ 0
 USB-D_P
 $Comp
 L S3-OLinuXino_Rev_A:GND #PWR?
@@ -2919,10 +2919,8 @@ Wire Wire Line
 	3700 8300 3850 8300
 Wire Wire Line
 	3500 8300 3400 8300
-Connection ~ 3400 8300
 Wire Wire Line
 	3400 8200 3500 8200
-Connection ~ 3400 8200
 Text Notes 2550 7250 0    50   ~ 0
 USB Power in
 $Comp
@@ -3101,4 +3099,36 @@ Connection ~ 5350 2550
 Wire Wire Line
 	5350 2550 5650 2550
 Connection ~ 5650 2750
+Text GLabel 10450 9900 0    50   Input ~ 0
+USB-D_N
+Text GLabel 10450 10100 0    50   Input ~ 0
+USB-D_P
+$Comp
+L Power_Protection:SP0502BAHT D6
+U 1 1 5FC7EF96
+P 10650 10000
+F 0 "D6" V 10992 10000 50  0000 C CNN
+F 1 "ESD5302F" V 10901 10000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10875 9950 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10775 10125 50  0001 C CNN
+F 4 "C239643" V 10650 10000 50  0001 C CNN "LCSC"
+	1    10650 10000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L S3-OLinuXino_Rev_A:+5V_USBOTG #PWR?
+U 1 1 5FC176D0
+P 10850 10000
+AR Path="/5D8A1FAC/5FC176D0" Ref="#PWR?"  Part="1" 
+AR Path="/5FC176D0" Ref="#PWR?"  Part="1" 
+AR Path="/602ACDF9/5FC176D0" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 10850 9850 50  0001 C CNN
+F 1 "+5V_USBOTG" V 10850 10150 50  0000 L CNN
+F 2 "" H 10850 10000 60  0000 C CNN
+F 3 "" H 10850 10000 60  0000 C CNN
+	1    10850 10000
+	0    1    1    0   
+$EndComp
+Connection ~ 3400 8300
+Connection ~ 3400 8200
 $EndSCHEMATC
