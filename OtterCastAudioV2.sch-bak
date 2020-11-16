@@ -653,8 +653,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8859-SEEPROM-AT24CS16
 	1    10050 10450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 10050 10050 10100
 $Comp
 L S3-OLinuXino_Rev_A:GND #PWR0112
 U 1 1 67C92F19
@@ -666,35 +664,6 @@ F 3 "" H 10050 10750 60  0000 C CNN
 	1    10050 10750
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 67C9846E
-P 9750 10100
-F 0 "C2" V 9979 10100 50  0000 C CNN
-F 1 "100n" V 9888 10100 50  0000 C CNN
-F 2 "otter:C_0402" H 9750 10100 50  0001 C CNN
-F 3 "~" H 9750 10100 50  0001 C CNN
-	1    9750 10100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR0113
-U 1 1 67C9D93C
-P 9550 10150
-F 0 "#PWR0113" H 9550 9900 50  0001 C CNN
-F 1 "GND" H 9550 10000 50  0000 C CNN
-F 2 "" H 9550 10150 60  0000 C CNN
-F 3 "" H 9550 10150 60  0000 C CNN
-	1    9550 10150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 10100 9550 10100
-Wire Wire Line
-	9550 10100 9550 10150
-Connection ~ 10050 10100
-Wire Wire Line
-	10050 10100 10050 10150
 Text GLabel 10900 10450 2    50   Input ~ 0
 PB8\TWI1-SCK
 Text GLabel 10900 10350 2    50   Input ~ 0
@@ -714,8 +683,6 @@ Wire Wire Line
 	10450 10550 10500 10550
 Wire Wire Line
 	10500 10550 10500 10600
-Wire Wire Line
-	9850 10100 10050 10100
 Wire Wire Line
 	10900 10350 10550 10350
 Wire Wire Line
@@ -831,4 +798,6 @@ F 3 "" H 7550 9950 60  0000 C CNN
 	1    7550 9950
 	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	10050 10050 10050 10150
 $EndSCHEMATC
