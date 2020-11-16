@@ -34,29 +34,29 @@ $EndComp
 $Comp
 L S3-OLinuXino_Rev_A:GND #PWR?
 U 1 1 621FAA25
-P 2000 3900
+P 2350 3900
 AR Path="/5D8A1FAC/621FAA25" Ref="#PWR?"  Part="1" 
 AR Path="/621FAA25" Ref="#PWR?"  Part="1" 
 AR Path="/620E795B/621FAA25" Ref="#PWR0245"  Part="1" 
-F 0 "#PWR0245" H 2000 3650 50  0001 C CNN
-F 1 "GND" V 2000 3700 50  0000 C CNN
-F 2 "" H 2000 3900 60  0000 C CNN
-F 3 "" H 2000 3900 60  0000 C CNN
-	1    2000 3900
+F 0 "#PWR0245" H 2350 3650 50  0001 C CNN
+F 1 "GND" V 2350 3700 50  0000 C CNN
+F 2 "" H 2350 3900 60  0000 C CNN
+F 3 "" H 2350 3900 60  0000 C CNN
+	1    2350 3900
 	0    1    -1   0   
 $EndComp
 $Comp
 L S3-OLinuXino_Rev_A:+3.0VA #PWR?
 U 1 1 621FAA2B
-P 2000 3700
+P 2350 3700
 AR Path="/5D8A1FAC/621FAA2B" Ref="#PWR?"  Part="1" 
 AR Path="/621FAA2B" Ref="#PWR?"  Part="1" 
 AR Path="/620E795B/621FAA2B" Ref="#PWR0246"  Part="1" 
-F 0 "#PWR0246" H 2000 3550 50  0001 C CNN
-F 1 "+3.0VA" V 2000 3800 50  0000 L CNN
-F 2 "" H 2000 3700 60  0000 C CNN
-F 3 "" H 2000 3700 60  0000 C CNN
-	1    2000 3700
+F 0 "#PWR0246" H 2350 3550 50  0001 C CNN
+F 1 "+3.0VA" V 2350 3800 50  0000 L CNN
+F 2 "" H 2350 3700 60  0000 C CNN
+F 3 "" H 2350 3700 60  0000 C CNN
+	1    2350 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -72,20 +72,6 @@ F 2 "" H 1900 2300 60  0000 C CNN
 F 3 "" H 1900 2300 60  0000 C CNN
 	1    1900 2300
 	0    -1   1    0   
-$EndComp
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 621FAA55
-P 2000 3100
-AR Path="/5D8A1FAC/621FAA55" Ref="#PWR?"  Part="1" 
-AR Path="/621FAA55" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/621FAA55" Ref="#PWR0248"  Part="1" 
-F 0 "#PWR0248" H 2000 2850 50  0001 C CNN
-F 1 "GND" H 2005 2927 50  0000 C CNN
-F 2 "" H 2000 3100 60  0000 C CNN
-F 3 "" H 2000 3100 60  0000 C CNN
-	1    2000 3100
-	-1   0    0    -1  
 $EndComp
 $Comp
 L S3-OLinuXino_Rev_A:GND #PWR?
@@ -389,48 +375,6 @@ Text GLabel 2700 2400 0    50   Input ~ 0
 USB-D_N
 Text GLabel 2700 2500 0    50   Input ~ 0
 USB-D_P
-Text GLabel 2700 2700 0    50   Input ~ 0
-MBIAS
-Text GLabel 2700 2900 0    50   Input ~ 0
-MICIN3_P
-Text GLabel 2700 3000 0    50   Input ~ 0
-MICIN3_N
-Text GLabel 2700 3300 0    50   Input ~ 0
-MICIN1_P
-Text GLabel 2700 3400 0    50   Input ~ 0
-MICIN1_N
-Wire Wire Line
-	2700 4300 2700 4400
-Text GLabel 2700 4400 0    50   Input ~ 0
-HPOUTFB
-Text GLabel 2700 4500 0    50   Input ~ 0
-HPOUTL
-Text GLabel 2700 4600 0    50   Input ~ 0
-HPOUTR
-Text GLabel 2700 4800 0    50   Input ~ 0
-LINEOUTL
-Text GLabel 2700 4900 0    50   Input ~ 0
-LINEINL
-Text GLabel 2700 5000 0    50   Input ~ 0
-LINEINR
-Wire Wire Line
-	1600 4250 1600 4200
-Wire Wire Line
-	1600 4200 1950 4200
-Wire Wire Line
-	1950 4250 1950 4200
-Connection ~ 1950 4200
-Wire Wire Line
-	1950 4200 2700 4200
-Wire Wire Line
-	1950 4500 1600 4500
-Wire Wire Line
-	1600 4500 1600 4450
-Wire Wire Line
-	1950 4500 1950 4450
-Wire Wire Line
-	1550 4500 1600 4500
-Connection ~ 1600 4500
 Wire Wire Line
 	1200 4350 1250 4350
 Wire Wire Line
@@ -454,35 +398,9 @@ F 3 "~" H 2400 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 3700 2400 3700
-Wire Wire Line
-	2050 3900 2400 3900
-Connection ~ 2400 3700
-Wire Wire Line
 	2400 3700 2700 3700
-Connection ~ 2400 3900
 Wire Wire Line
 	2400 3900 2700 3900
-Wire Wire Line
-	2000 3700 2050 3700
-Connection ~ 2050 3700
-Wire Wire Line
-	2000 3900 2050 3900
-Connection ~ 2050 3900
-$Comp
-L Device:C_Small C?
-U 1 1 681C1C81
-P 1300 3650
-AR Path="/681C1C81" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/681C1C81" Ref="C?"  Part="1" 
-AR Path="/620E795B/681C1C81" Ref="C80"  Part="1" 
-F 0 "C80" H 1392 3696 50  0000 L CNN
-F 1 "4.7u" H 1392 3605 50  0000 L CNN
-F 2 "otter:C_0603" H 1300 3650 50  0001 C CNN
-F 3 "~" H 1300 3650 50  0001 C CNN
-	1    1300 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 3500 1300 3550
 Wire Wire Line
@@ -528,26 +446,6 @@ $EndComp
 Wire Wire Line
 	1100 3800 1150 3800
 Connection ~ 1150 3800
-$Comp
-L Device:C_Small C?
-U 1 1 68254F7D
-P 2000 2950
-AR Path="/68254F7D" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/68254F7D" Ref="C?"  Part="1" 
-AR Path="/620E795B/68254F7D" Ref="C86"  Part="1" 
-F 0 "C86" H 2092 2996 50  0000 L CNN
-F 1 "DNP" H 2092 2905 50  0000 L CNN
-F 2 "otter:C_0603" H 2000 2950 50  0001 C CNN
-F 3 "~" H 2000 2950 50  0001 C CNN
-	1    2000 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 2850 2000 2800
-Wire Wire Line
-	2000 2800 2700 2800
-Wire Wire Line
-	2000 3100 2000 3050
 $Comp
 L Device:C_Small C?
 U 1 1 682DD643
@@ -1147,8 +1045,6 @@ $EndComp
 Wire Wire Line
 	5950 4350 5950 4400
 Connection ~ 5950 4400
-Text GLabel 2700 4700 0    50   Input ~ 0
-LINEOUTR
 $Comp
 L Connector:RJ45_Abracon_ARJP11A-MASA-B-A-EMU2 J8
 U 1 1 68A9E843
@@ -1285,20 +1181,6 @@ F 3 "~" H 9350 3450 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 68143627
-P 2050 3800
-AR Path="/68143627" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/68143627" Ref="C?"  Part="1" 
-AR Path="/620E795B/68143627" Ref="C87"  Part="1" 
-F 0 "C87" H 2142 3846 50  0000 L CNN
-F 1 "10u" H 2142 3755 50  0000 L CNN
-F 2 "otter:C_0603" H 2050 3800 50  0001 C CNN
-F 3 "~" H 2050 3800 50  0001 C CNN
-	1    2050 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 685A8C38
 P 2150 5300
 AR Path="/685A8C38" Ref="C?"  Part="1" 
@@ -1339,29 +1221,15 @@ F 3 "~" H 1250 4250 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 68092C34
-P 1600 4350
-AR Path="/68092C34" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/68092C34" Ref="C?"  Part="1" 
-AR Path="/620E795B/68092C34" Ref="C81"  Part="1" 
-F 0 "C81" H 1692 4396 50  0000 L CNN
-F 1 "10u" H 1692 4305 50  0000 L CNN
-F 2 "otter:C_0603" H 1600 4350 50  0001 C CNN
-F 3 "~" H 1600 4350 50  0001 C CNN
-	1    1600 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 68092C2E
-P 1950 4350
+P 1600 4350
 AR Path="/68092C2E" Ref="C?"  Part="1" 
 AR Path="/620E795B/68092C2E" Ref="C85"  Part="1" 
-F 0 "C85" H 2042 4396 50  0000 L CNN
-F 1 "100n" H 2042 4305 50  0000 L CNN
-F 2 "otter:C_0402" H 1950 4350 50  0001 C CNN
-F 3 "~" H 1950 4350 50  0001 C CNN
-	1    1950 4350
+F 0 "C85" H 1692 4396 50  0000 L CNN
+F 1 "100n" H 1692 4305 50  0000 L CNN
+F 2 "otter:C_0402" H 1600 4350 50  0001 C CNN
+F 3 "~" H 1600 4350 50  0001 C CNN
+	1    1600 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1785,4 +1653,37 @@ Wire Wire Line
 	10300 4200 10550 4200
 Wire Wire Line
 	4100 5300 4400 5300
+NoConn ~ 2700 2800
+NoConn ~ 2700 3000
+NoConn ~ 2700 2900
+NoConn ~ 2700 3400
+NoConn ~ 2700 3300
+NoConn ~ 2700 2700
+Wire Wire Line
+	1550 4500 1600 4500
+Wire Wire Line
+	1600 4500 1600 4450
+Wire Wire Line
+	1600 4250 1600 4200
+Wire Wire Line
+	1600 4200 2700 4200
+Wire Wire Line
+	2350 3700 2400 3700
+Connection ~ 2400 3700
+Wire Wire Line
+	2350 3900 2400 3900
+Connection ~ 2400 3900
+$Comp
+L Device:C_Small C?
+U 1 1 5FFEE453
+P 1300 3650
+AR Path="/5FFEE453" Ref="C?"  Part="1" 
+AR Path="/620E795B/5FFEE453" Ref="C?"  Part="1" 
+F 0 "C?" H 1392 3696 50  0000 L CNN
+F 1 "100n" H 1392 3605 50  0000 L CNN
+F 2 "otter:C_0402" H 1300 3650 50  0001 C CNN
+F 3 "~" H 1300 3650 50  0001 C CNN
+	1    1300 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
