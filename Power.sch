@@ -128,20 +128,6 @@ F 3 "" H 4450 3350 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:VBAT #PWR?
-U 1 1 6097F1C8
-P 4450 1200
-AR Path="/5D8A1FAC/6097F1C8" Ref="#PWR?"  Part="1" 
-AR Path="/6097F1C8" Ref="#PWR?"  Part="1" 
-AR Path="/602ACDF9/6097F1C8" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 4450 1050 50  0001 C CNN
-F 1 "VBAT" H 4450 1350 50  0000 C CNN
-F 2 "" H 4450 1200 60  0000 C CNN
-F 3 "" H 4450 1200 60  0000 C CNN
-	1    4450 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L S3-OLinuXino_Rev_A:+1V2 #PWR?
 U 1 1 6097F231
 P 5700 4650
@@ -155,8 +141,6 @@ F 3 "" H 5700 4650 60  0000 C CNN
 	1    5700 4650
 	0    1    1    0   
 $EndComp
-Text GLabel 1800 5400 0    60   Input ~ 0
-AXP_RST
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V_RTC #PWR?
 U 1 1 6097F284
@@ -171,8 +155,6 @@ F 3 "" H 1800 5750 60  0001 C CNN
 	1    1800 5750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4450 1650 5650 1650
 $Comp
 L S3-OLinuXino_Rev_A:+3.0VA #PWR?
 U 1 1 60EEB72C
@@ -745,17 +727,6 @@ F 3 "" H 5700 4050 60  0001 C CNN
 	1    5700 4050
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:L_Small L3
-U 1 1 64FE8860
-P 4550 3150
-F 0 "L3" V 4735 3150 50  0000 C CNN
-F 1 "2.2uH" V 4644 3150 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-3030" H 4550 3150 50  0001 C CNN
-F 3 "~" H 4550 3150 50  0001 C CNN
-	1    4550 3150
-	0    -1   -1   0   
-$EndComp
 Text Notes 4750 3050 0    24   ~ 0
 1.5A\n72mOhm\n
 Wire Wire Line
@@ -844,6 +815,7 @@ F 0 "L2" V 4735 2550 50  0000 C CNN
 F 1 "2.2uH" V 4644 2550 50  0000 C CNN
 F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-3030" H 4550 2550 50  0001 C CNN
 F 3 "~" H 4550 2550 50  0001 C CNN
+F 4 "C167747" V 4550 2550 50  0001 C CNN "LCSC"
 	1    4550 2550
 	0    -1   -1   0   
 $EndComp
@@ -899,112 +871,6 @@ F 3 "" H 5700 2250 60  0000 C CNN
 	1    5700 2250
 	0    1    1    0   
 $EndComp
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 654D32D9
-P 4450 2150
-AR Path="/5D8A1FAC/654D32D9" Ref="#PWR?"  Part="1" 
-AR Path="/654D32D9" Ref="#PWR?"  Part="1" 
-AR Path="/602ACDF9/654D32D9" Ref="#PWR0153"  Part="1" 
-F 0 "#PWR0153" H 4450 1900 50  0001 C CNN
-F 1 "GND" V 4455 2022 50  0000 R CNN
-F 2 "" H 4450 2150 60  0000 C CNN
-F 3 "" H 4450 2150 60  0000 C CNN
-	1    4450 2150
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:L_Small L1
-U 1 1 654F919A
-P 4550 1950
-F 0 "L1" V 4650 1950 50  0000 C CNN
-F 1 "2.2uH" V 4500 1950 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-3030" H 4550 1950 50  0001 C CNN
-F 3 "~" H 4550 1950 50  0001 C CNN
-	1    4550 1950
-	0    -1   -1   0   
-$EndComp
-Text Notes 4700 1900 0    24   ~ 0
-1.5A\n72mOhm\n
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 6551E09A
-P 5100 2150
-AR Path="/5D8A1FAC/6551E09A" Ref="#PWR?"  Part="1" 
-AR Path="/6551E09A" Ref="#PWR?"  Part="1" 
-AR Path="/602ACDF9/6551E09A" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR0154" H 5100 1900 50  0001 C CNN
-F 1 "GND" V 5105 2022 50  0000 R CNN
-F 2 "" H 5100 2150 60  0000 C CNN
-F 3 "" H 5100 2150 60  0000 C CNN
-	1    5100 2150
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5100 2150 5050 2150
-Wire Wire Line
-	4650 1950 5050 1950
-Connection ~ 5050 1950
-Wire Wire Line
-	5050 1950 5050 1750
-Wire Wire Line
-	5050 1750 4450 1750
-$Comp
-L Device:C_Small C?
-U 1 1 655B36DE
-P 5350 1950
-AR Path="/655B36DE" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/655B36DE" Ref="C18"  Part="1" 
-F 0 "C18" V 5400 2100 50  0000 C CNN
-F 1 "2.2u" V 5400 1800 50  0000 C CNN
-F 2 "otter:C_0603" H 5350 1950 50  0001 C CNN
-F 3 "~" H 5350 1950 50  0001 C CNN
-	1    5350 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 655FD506
-P 5700 2150
-AR Path="/5D8A1FAC/655FD506" Ref="#PWR?"  Part="1" 
-AR Path="/655FD506" Ref="#PWR?"  Part="1" 
-AR Path="/602ACDF9/655FD506" Ref="#PWR0155"  Part="1" 
-F 0 "#PWR0155" H 5700 1900 50  0001 C CNN
-F 1 "GND" V 5705 2022 50  0000 R CNN
-F 2 "" H 5700 2150 60  0000 C CNN
-F 3 "" H 5700 2150 60  0000 C CNN
-	1    5700 2150
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5700 2150 5650 2150
-Wire Wire Line
-	5050 1950 5250 1950
-Wire Wire Line
-	5450 1950 5650 1950
-$Comp
-L Device:R_Small R?
-U 1 1 6566D8F1
-P 5350 1750
-AR Path="/6566D8F1" Ref="R?"  Part="1" 
-AR Path="/602ACDF9/6566D8F1" Ref="R27"  Part="1" 
-F 0 "R27" V 5300 1600 50  0000 C CNN
-F 1 "R03" V 5300 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 5350 1750 50  0001 C CNN
-F 3 "~" H 5350 1750 50  0001 C CNN
-	1    5350 1750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5250 1750 5050 1750
-Connection ~ 5050 1750
-Wire Wire Line
-	5450 1750 5650 1750
-Wire Wire Line
-	5650 1750 5650 1950
-Wire Wire Line
-	5650 1750 5650 1650
-Connection ~ 5650 1750
 Connection ~ 4700 2550
 Wire Wire Line
 	4450 2850 5300 2850
@@ -1315,13 +1181,6 @@ F 3 "" H 1800 5300 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1850 5300 1800 5300
-Wire Wire Line
-	2350 5400 2350 5300
-Wire Wire Line
-	2350 5300 2750 5300
-Wire Wire Line
-	1800 5400 2350 5400
-Connection ~ 2350 5300
 $Comp
 L Device:C_Small C?
 U 1 1 6648F2A4
@@ -1335,37 +1194,6 @@ F 3 "~" H 1950 4150 50  0001 C CNN
 	1    1950 4150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 664B32D7
-P 2500 5050
-AR Path="/664B32D7" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/664B32D7" Ref="C12"  Part="1" 
-F 0 "C12" V 2450 4900 50  0000 L CNN
-F 1 "1n" V 2450 5100 50  0000 L CNN
-F 2 "otter:C_0402" H 2500 5050 50  0001 C CNN
-F 3 "~" H 2500 5050 50  0001 C CNN
-	1    2500 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 6651D96D
-P 2650 5050
-AR Path="/5D8A1FAC/6651D96D" Ref="#PWR?"  Part="1" 
-AR Path="/6651D96D" Ref="#PWR?"  Part="1" 
-AR Path="/602ACDF9/6651D96D" Ref="#PWR0166"  Part="1" 
-F 0 "#PWR0166" H 2650 4800 50  0001 C CNN
-F 1 "GND" H 2655 4877 50  0000 C CNN
-F 2 "" H 2650 5050 60  0000 C CNN
-F 3 "" H 2650 5050 60  0000 C CNN
-	1    2650 5050
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 5050 2600 5050
-Wire Wire Line
-	2250 5300 2350 5300
 $Comp
 L S3-OLinuXino_Rev_A:GND #PWR?
 U 1 1 665ACB95
@@ -1695,18 +1523,9 @@ Wire Wire Line
 	1850 4950 1800 4950
 Wire Wire Line
 	3250 4950 2350 4950
-Wire Wire Line
-	2350 4950 2350 5050
 Connection ~ 2350 4950
 Wire Wire Line
 	2350 4950 2250 4950
-Text GLabel 1800 5050 0    60   Input ~ 0
-AXP_PWRON
-Wire Wire Line
-	1800 5050 2350 5050
-Wire Wire Line
-	2400 5050 2350 5050
-Connection ~ 2350 5050
 Wire Wire Line
 	2150 5550 3150 5550
 Wire Wire Line
@@ -1785,17 +1604,6 @@ Wire Wire Line
 Connection ~ 4500 5550
 Wire Wire Line
 	4500 5550 4450 5550
-$Comp
-L Device:L_Small L4
-U 1 1 675FE2E0
-P 8000 8000
-F 0 "L4" V 8100 8000 50  0000 C CNN
-F 1 "2.2uH" V 7950 8000 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-3030" H 8000 8000 50  0001 C CNN
-F 3 "~" H 8000 8000 50  0001 C CNN
-	1    8000 8000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 67669AFD
@@ -1909,22 +1717,6 @@ Wire Wire Line
 	8450 8000 8450 7950
 Text Notes 7450 7800 0    50   ~ 0
 1V5\n
-Wire Wire Line
-	4450 1200 4450 1250
-$Comp
-L otter:AXP209(QFN-48) U3
-U 1 1 67A1DB58
-P 3850 3550
-F 0 "U3" H 3850 6115 50  0000 C CNN
-F 1 "AXP209(QFN-48)" H 3850 6024 50  0000 C CNN
-F 2 "otter:QFN-48-1EP_6x6mm_P0.4mm_EP4.05x4.05mm" H 3850 850 50  0001 C CNN
-F 3 "http://dl.linux-sunxi.org/AXP/AXP209_Datasheet_v1.0en.pdf" H 3850 750 50  0001 C CNN
-	1    3850 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 1350 4450 1650
-Connection ~ 4450 1650
 Text Notes 3500 6150 0    50   ~ 0
 I2C Address: 0x34
 Wire Wire Line
@@ -2468,42 +2260,13 @@ Wire Wire Line
 Wire Wire Line
 	5300 3050 5600 3050
 Wire Wire Line
-	4700 3150 5650 3150
+	4700 3150 5350 3150
 Wire Wire Line
-	4450 3450 5650 3450
-Wire Wire Line
-	4700 2550 5650 2550
+	4700 2550 5350 2550
 Wire Wire Line
 	5300 2450 5600 2450
 Wire Wire Line
 	4450 2250 5300 2250
-$Comp
-L Device:C_Small C?
-U 1 1 68D6AE51
-P 5050 2050
-AR Path="/68D6AE51" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/68D6AE51" Ref="C15"  Part="1" 
-F 0 "C15" H 4850 2100 50  0000 L CNN
-F 1 "10u" H 4850 2000 50  0000 L CNN
-F 2 "otter:C_0603" H 5050 2050 50  0001 C CNN
-F 3 "~" H 5050 2050 50  0001 C CNN
-	1    5050 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 68D8BB52
-P 5650 2050
-AR Path="/68D8BB52" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/68D8BB52" Ref="C21"  Part="1" 
-F 0 "C21" H 5450 2100 50  0000 L CNN
-F 1 "10u" H 5450 2000 50  0000 L CNN
-F 2 "otter:C_0603" H 5650 2050 50  0001 C CNN
-F 3 "~" H 5650 2050 50  0001 C CNN
-	1    5650 2050
-	1    0    0    -1  
-$EndComp
-Connection ~ 5650 1950
 $Comp
 L Device:C_Small C?
 U 1 1 68DAC930
@@ -3104,19 +2867,6 @@ F 3 "" H 1850 8450 60  0000 C CNN
 	1    1850 8450
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:LED D?
-U 1 1 5FC342C2
-P 1850 8300
-AR Path="/5FC342C2" Ref="D?"  Part="1" 
-AR Path="/602ACDF9/5FC342C2" Ref="D3"  Part="1" 
-F 0 "D3" V 1889 8183 50  0000 R CNN
-F 1 "LED" V 1798 8183 50  0000 R CNN
-F 2 "otter:LED_0603_1608Metric" H 1850 8300 50  0001 C CNN
-F 3 "~" H 1850 8300 50  0001 C CNN
-	1    1850 8300
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 3400 8800
 NoConn ~ 3400 8700
 Wire Wire Line
@@ -3175,4 +2925,180 @@ Wire Wire Line
 Connection ~ 3400 8200
 Text Notes 2550 7250 0    50   ~ 0
 USB Power in
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR?
+U 1 1 6651D96D
+P 1800 5100
+AR Path="/5D8A1FAC/6651D96D" Ref="#PWR?"  Part="1" 
+AR Path="/6651D96D" Ref="#PWR?"  Part="1" 
+AR Path="/602ACDF9/6651D96D" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 1800 4850 50  0001 C CNN
+F 1 "GND" V 1805 4972 50  0000 R CNN
+F 2 "" H 1800 5100 60  0000 C CNN
+F 3 "" H 1800 5100 60  0000 C CNN
+	1    1800 5100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 664B32D7
+P 2050 5100
+AR Path="/664B32D7" Ref="C?"  Part="1" 
+AR Path="/602ACDF9/664B32D7" Ref="C12"  Part="1" 
+F 0 "C12" V 2000 4900 50  0000 L CNN
+F 1 "1n" V 2000 5150 50  0000 L CNN
+F 2 "otter:C_0402" H 2050 5100 50  0001 C CNN
+F 3 "~" H 2050 5100 50  0001 C CNN
+	1    2050 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FC342C2
+P 1850 8300
+AR Path="/5FC342C2" Ref="D?"  Part="1" 
+AR Path="/602ACDF9/5FC342C2" Ref="D3"  Part="1" 
+F 0 "D3" V 1889 8183 50  0000 R CNN
+F 1 "LED" V 1798 8183 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1850 8300 50  0001 C CNN
+F 3 "~" H 1850 8300 50  0001 C CNN
+	1    1850 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 5300 2750 5300
+Wire Wire Line
+	2150 5100 2350 5100
+Wire Wire Line
+	2350 4950 2350 5100
+Wire Wire Line
+	1800 5100 1950 5100
+Wire Wire Line
+	4450 1350 4450 1650
+Connection ~ 4450 1350
+Wire Wire Line
+	4450 1250 4450 1350
+$Comp
+L otter:AXP209(QFN-48) U3
+U 1 1 67A1DB58
+P 3850 3550
+F 0 "U3" H 3850 6115 50  0000 C CNN
+F 1 "AXP209(QFN-48)" H 3850 6024 50  0000 C CNN
+F 2 "otter:QFN-48-1EP_6x6mm_P0.4mm_EP4.05x4.05mm" H 3850 850 50  0001 C CNN
+F 3 "http://dl.linux-sunxi.org/AXP/AXP209_Datasheet_v1.0en.pdf" H 3850 750 50  0001 C CNN
+	1    3850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 610BA446
+P 4650 1400
+AR Path="/610BA446" Ref="C?"  Part="1" 
+AR Path="/602ACDF9/610BA446" Ref="C15"  Part="1" 
+F 0 "C15" H 4742 1446 50  0000 L CNN
+F 1 "100n" H 4742 1355 50  0000 L CNN
+F 2 "otter:C_0402" H 4650 1400 50  0001 C CNN
+F 3 "~" H 4650 1400 50  0001 C CNN
+	1    4650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1250 4650 1250
+Wire Wire Line
+	4650 1250 4650 1300
+Connection ~ 4450 1250
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR?
+U 1 1 654D32D9
+P 4450 2150
+AR Path="/5D8A1FAC/654D32D9" Ref="#PWR?"  Part="1" 
+AR Path="/654D32D9" Ref="#PWR?"  Part="1" 
+AR Path="/602ACDF9/654D32D9" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 4450 1900 50  0001 C CNN
+F 1 "GND" V 4455 2022 50  0000 R CNN
+F 2 "" H 4450 2150 60  0000 C CNN
+F 3 "" H 4450 2150 60  0000 C CNN
+	1    4450 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L S3-OLinuXino_Rev_A:GND #PWR?
+U 1 1 610F4895
+P 4650 1500
+AR Path="/5D8A1FAC/610F4895" Ref="#PWR?"  Part="1" 
+AR Path="/610F4895" Ref="#PWR?"  Part="1" 
+AR Path="/602ACDF9/610F4895" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4650 1250 50  0001 C CNN
+F 1 "GND" H 4655 1327 50  0000 C CNN
+F 2 "" H 4650 1500 60  0000 C CNN
+F 3 "" H 4650 1500 60  0000 C CNN
+	1    4650 1500
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4450 1950
+NoConn ~ 4450 1750
+$Comp
+L Device:L_Small L1
+U 1 1 611ABCF6
+P 4550 3150
+F 0 "L1" V 4735 3150 50  0000 C CNN
+F 1 "2.2uH" V 4644 3150 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-3030" H 4550 3150 50  0001 C CNN
+F 3 "~" H 4550 3150 50  0001 C CNN
+F 4 "C167747" V 4550 3150 50  0001 C CNN "LCSC"
+	1    4550 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L_Small L3
+U 1 1 611E5AC9
+P 8000 8000
+F 0 "L3" V 8185 8000 50  0000 C CNN
+F 1 "2.2uH" V 8094 8000 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-3030" H 8000 8000 50  0001 C CNN
+F 3 "~" H 8000 8000 50  0001 C CNN
+F 4 "C167747" V 8000 8000 50  0001 C CNN "LCSC"
+	1    8000 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 613212D8
+P 5350 3250
+AR Path="/613212D8" Ref="C?"  Part="1" 
+AR Path="/602ACDF9/613212D8" Ref="C21"  Part="1" 
+F 0 "C21" H 5258 3296 50  0000 R CNN
+F 1 "100n" H 5258 3205 50  0000 R CNN
+F 2 "otter:C_0402" H 5350 3250 50  0001 C CNN
+F 3 "~" H 5350 3250 50  0001 C CNN
+	1    5350 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3350 5350 3350
+Wire Wire Line
+	4450 3450 5650 3450
+Connection ~ 5350 3150
+Wire Wire Line
+	5350 3150 5650 3150
+Connection ~ 5650 3350
+$Comp
+L Device:C_Small C?
+U 1 1 61377FAF
+P 5350 2650
+AR Path="/61377FAF" Ref="C?"  Part="1" 
+AR Path="/602ACDF9/61377FAF" Ref="C18"  Part="1" 
+F 0 "C18" H 5258 2696 50  0000 R CNN
+F 1 "100n" H 5258 2605 50  0000 R CNN
+F 2 "otter:C_0402" H 5350 2650 50  0001 C CNN
+F 3 "~" H 5350 2650 50  0001 C CNN
+	1    5350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2750 5350 2750
+Connection ~ 5350 2550
+Wire Wire Line
+	5350 2550 5650 2550
+Connection ~ 5650 2750
 $EndSCHEMATC
