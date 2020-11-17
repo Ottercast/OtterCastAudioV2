@@ -230,13 +230,9 @@ Wire Wire Line
 	4150 4550 4100 4550
 Connection ~ 4150 4750
 Wire Wire Line
-	4450 4750 5200 4750
+	4450 4750 5100 4750
 Wire Wire Line
-	5200 4850 4450 4850
-Text Label 4750 4850 0    50   ~ 0
-MIPI-SCK
-Text Label 4750 4750 0    50   ~ 0
-MIPI-SDA
+	5200 4850 5100 4850
 $Comp
 L Device:R_Small R?
 U 1 1 60047892
@@ -1423,4 +1419,22 @@ F 3 "~" H 5750 6600 50  0001 C CNN
 	1    5750 6600
 	1    0    0    -1  
 $EndComp
+Text GLabel 5050 4700 0    50   Input ~ 0
+MIPI-SDA
+Text GLabel 5050 4800 0    50   Input ~ 0
+MIPI-SCK
+Wire Wire Line
+	5050 4800 5100 4800
+Wire Wire Line
+	5100 4800 5100 4850
+Connection ~ 5100 4850
+Wire Wire Line
+	5100 4850 4450 4850
+Wire Wire Line
+	5050 4700 5100 4700
+Wire Wire Line
+	5100 4700 5100 4750
+Connection ~ 5100 4750
+Wire Wire Line
+	5100 4750 5200 4750
 $EndSCHEMATC
