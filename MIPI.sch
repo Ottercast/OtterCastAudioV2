@@ -534,15 +534,15 @@ $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 685269CF
-P 4800 4100
+P 7350 1450
 AR Path="/685269CF" Ref="R?"  Part="1" 
 AR Path="/620E795B/685269CF" Ref="R88"  Part="1" 
-F 0 "R88" V 4750 3950 50  0000 C CNN
-F 1 "2k2" V 4750 4300 50  0000 C CNN
-F 2 "otter:C_0402" H 4800 4100 50  0001 C CNN
-F 3 "~" H 4800 4100 50  0001 C CNN
-	1    4800 4100
-	0    1    1    0   
+F 0 "R88" V 7300 1300 50  0000 C CNN
+F 1 "2k2" V 7300 1650 50  0000 C CNN
+F 2 "otter:C_0402" H 7350 1450 50  0001 C CNN
+F 3 "~" H 7350 1450 50  0001 C CNN
+	1    7350 1450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
@@ -559,7 +559,7 @@ F 3 "~" H 4800 4200 50  0001 C CNN
 $EndComp
 Text GLabel 4900 4000 2    50   Input ~ 0
 EPHY_LINK_LED
-Text GLabel 5100 4100 2    50   Input ~ 0
+Text GLabel 4900 4100 2    50   Input ~ 0
 EPHY_SPD_LED
 $Comp
 L Device:R_Small R?
@@ -1002,15 +1002,15 @@ $EndComp
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V #PWR?
 U 1 1 68AC8602
-P 7350 1650
+P 7350 1200
 AR Path="/5D8A1FAC/68AC8602" Ref="#PWR?"  Part="1" 
 AR Path="/68AC8602" Ref="#PWR?"  Part="1" 
 AR Path="/620E795B/68AC8602" Ref="#PWR0280"  Part="1" 
-F 0 "#PWR0280" H 7350 1500 50  0001 C CNN
-F 1 "+3.3V" V 7350 1875 50  0000 C CNN
-F 2 "" H 7350 1650 60  0000 C CNN
-F 3 "" H 7350 1650 60  0000 C CNN
-	1    7350 1650
+F 0 "#PWR0280" H 7350 1050 50  0001 C CNN
+F 1 "+3.3V" V 7350 1425 50  0000 C CNN
+F 2 "" H 7350 1200 60  0000 C CNN
+F 3 "" H 7350 1200 60  0000 C CNN
+	1    7350 1200
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1376,11 +1376,7 @@ F 3 "" H 1550 5100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4100 4100 4700 4100
-Wire Wire Line
 	4100 4200 4700 4200
-Wire Wire Line
-	4900 4100 5100 4100
 Wire Wire Line
 	4900 4200 5100 4200
 Wire Wire Line
@@ -1635,4 +1631,10 @@ Wire Wire Line
 	7650 1200 7650 1350
 Wire Wire Line
 	7650 1550 7650 1650
+Wire Wire Line
+	4100 4100 4900 4100
+Wire Wire Line
+	7350 1550 7350 1650
+Wire Wire Line
+	7350 1350 7350 1200
 $EndSCHEMATC

@@ -2460,19 +2460,6 @@ F 3 "~" H 11100 3150 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 68F8B62E
-P 11100 3650
-AR Path="/68F8B62E" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/68F8B62E" Ref="C40"  Part="1" 
-F 0 "C40" H 10900 3700 50  0000 L CNN
-F 1 "10u" H 10900 3600 50  0000 L CNN
-F 2 "otter:C_0603" H 11100 3650 50  0001 C CNN
-F 3 "~" H 11100 3650 50  0001 C CNN
-	1    11100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 68FAE15A
 P 11100 4250
 AR Path="/68FAE15A" Ref="C?"  Part="1" 
