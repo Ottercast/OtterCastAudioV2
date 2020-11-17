@@ -1,4 +1,4 @@
-17584406951981136
+17589210176881136
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76790,6 +76790,20 @@ otter
 2
 2
 otter
+2016_SMD_CRYSTAL
+
+
+0
+4
+4
+otter
+2520_SMD_CRYSTAL
+
+
+0
+4
+4
+otter
 2532_SMD_CRYSTAL
 
 
@@ -77151,7 +77165,7 @@ KH-5220-A56
 
 
 0
-9
+8
 3
 otter
 Keystone_3621
@@ -77202,6 +77216,13 @@ LFCSP-28-5x5mm-0.5mm-EP3.14x3.14mm
 0
 29
 29
+otter
+LGA_44_12x12mm_0.9mm
+
+
+0
+44
+44
 otter
 LM2596-DC-DC
 
