@@ -521,15 +521,15 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 6851960A
-P 4800 4000
+P 7650 1450
 AR Path="/6851960A" Ref="R?"  Part="1" 
 AR Path="/620E795B/6851960A" Ref="R87"  Part="1" 
-F 0 "R87" V 4750 3850 50  0000 C CNN
-F 1 "2k2" V 4750 4200 50  0000 C CNN
-F 2 "otter:C_0402" H 4800 4000 50  0001 C CNN
-F 3 "~" H 4800 4000 50  0001 C CNN
-	1    4800 4000
-	0    1    1    0   
+F 0 "R87" V 7600 1300 50  0000 C CNN
+F 1 "2k2" V 7600 1650 50  0000 C CNN
+F 2 "otter:C_0402" H 7650 1450 50  0001 C CNN
+F 3 "~" H 7650 1450 50  0001 C CNN
+	1    7650 1450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
@@ -557,7 +557,7 @@ F 3 "~" H 4800 4200 50  0001 C CNN
 	1    4800 4200
 	0    1    1    0   
 $EndComp
-Text GLabel 5100 4000 2    50   Input ~ 0
+Text GLabel 4900 4000 2    50   Input ~ 0
 EPHY_LINK_LED
 Text GLabel 5100 4100 2    50   Input ~ 0
 EPHY_SPD_LED
@@ -988,15 +988,15 @@ EPHY_SPD_LED
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V #PWR?
 U 1 1 68ABBB53
-P 7650 1650
+P 7650 1200
 AR Path="/5D8A1FAC/68ABBB53" Ref="#PWR?"  Part="1" 
 AR Path="/68ABBB53" Ref="#PWR?"  Part="1" 
 AR Path="/620E795B/68ABBB53" Ref="#PWR0279"  Part="1" 
-F 0 "#PWR0279" H 7650 1500 50  0001 C CNN
-F 1 "+3.3V" V 7650 1875 50  0000 C CNN
-F 2 "" H 7650 1650 60  0000 C CNN
-F 3 "" H 7650 1650 60  0000 C CNN
-	1    7650 1650
+F 0 "#PWR0279" H 7650 1050 50  0001 C CNN
+F 1 "+3.3V" V 7650 1425 50  0000 C CNN
+F 2 "" H 7650 1200 60  0000 C CNN
+F 3 "" H 7650 1200 60  0000 C CNN
+	1    7650 1200
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1376,13 +1376,9 @@ F 3 "" H 1550 5100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4100 4000 4700 4000
-Wire Wire Line
 	4100 4100 4700 4100
 Wire Wire Line
 	4100 4200 4700 4200
-Wire Wire Line
-	4900 4000 5100 4000
 Wire Wire Line
 	4900 4100 5100 4100
 Wire Wire Line
@@ -1633,4 +1629,10 @@ F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_
 	1    7550 2300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4100 4000 4900 4000
+Wire Wire Line
+	7650 1200 7650 1350
+Wire Wire Line
+	7650 1550 7650 1650
 $EndSCHEMATC
