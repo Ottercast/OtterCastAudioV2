@@ -7176,7 +7176,7 @@
     (tags "C Capacitor 0402")
     (path /602ACDF9/691A08CD)
     (attr smd)
-    (fp_text reference C8 (at 1.45 0.15 90) (layer F.SilkS)
+    (fp_text reference C8 (at -0.75 0.9 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_text value 100n (at 0 -1.325 90) (layer F.Fab) hide
