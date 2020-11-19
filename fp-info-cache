@@ -1,4 +1,4 @@
-17603661779246136
+17638570439893453
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76698,6 +76698,160 @@ minion_logo
 0
 0
 0
+jh_capacitor
+CP_EIA-3216-10
+Tantalum Capacitor SMD Kemet-I (3216-10 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+jh_capacitor
+CP_EIA-3528-12
+Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+jh_capacitor
+C_0402
+Capacitor 0402
+C Capacitor 0402
+0
+2
+2
+jh_capacitor
+C_0603
+Capacitor 0603
+C Capacitor 0603
+0
+2
+2
+jh_capacitor
+C_0805
+Capacitor 0805
+C Capacitor 0805
+0
+2
+2
+jh_crystal
+2016_SMD_CRYSTAL
+
+
+0
+4
+4
+jh_crystal
+2520_SMD_CRYSTAL
+
+
+0
+4
+4
+jh_crystal
+2532_SMD_CRYSTAL
+
+
+0
+4
+4
+jh_crystal
+CP_EIA-3216-10
+Tantalum Capacitor SMD Kemet-I (3216-10 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+jh_crystal
+CP_EIA-3528-12
+Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+jh_inductor
+Inductor_4040
+Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-4040, 4.0mmx4.0mm
+inductor taiyo-yuden md smd
+0
+2
+2
+jh_inductor
+R_0402
+Resistor 0402
+R Resistor 0805
+0
+2
+2
+jh_inductor
+R_0603
+Resistor 0603
+R Resistor 0603
+0
+2
+2
+jh_inductor
+R_0805
+Resistor 0805
+R Resistor 0805
+0
+2
+2
+jh_led
+BL-HUB34E-AV-TRB
+
+
+0
+3
+3
+jh_led
+LED-Strip
+
+
+0
+3
+3
+jh_led
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+jh_led
+LED_1206_3216_BACK
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+jh_led
+LED_Reverse
+
+
+0
+2
+2
+jh_resistor
+R_0402
+Resistor 0402
+R Resistor 0805
+0
+2
+2
+jh_resistor
+R_0603
+Resistor 0603
+R Resistor 0603
+0
+2
+2
+jh_resistor
+R_0805
+Resistor 0805
+R Resistor 0805
+0
+2
+2
 otter
 +
 
