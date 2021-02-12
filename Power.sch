@@ -18,7 +18,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 1550 3200 1550
 Connection ~ 5100 5850
-NoConn ~ 4450 5950
 Wire Wire Line
 	2050 4150 3250 4150
 Wire Wire Line
@@ -3118,4 +3117,18 @@ Wire Wire Line
 Wire Wire Line
 	1800 5400 1800 5300
 Connection ~ 1800 5300
+$Comp
+L S3-OLinuXino_Rev_A:+3.3V_RTC #PWR?
+U 1 1 602A517D
+P 4450 5950
+AR Path="/5D8A1FAC/602A517D" Ref="#PWR?"  Part="1" 
+AR Path="/602A517D" Ref="#PWR?"  Part="1" 
+AR Path="/602ACDF9/602A517D" Ref="#PWR0221"  Part="1" 
+F 0 "#PWR0221" H 4450 5650 60  0001 C CNN
+F 1 "+3.3V_RTC" V 4465 6078 50  0000 L CNN
+F 2 "" H 4450 5950 60  0001 C CNN
+F 3 "" H 4450 5950 60  0001 C CNN
+	1    4450 5950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

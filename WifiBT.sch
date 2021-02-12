@@ -827,27 +827,9 @@ F 3 "" H 3250 5050 60  0000 C CNN
 	1    3250 5050
 	-1   0    0    -1  
 $EndComp
-$Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
-U 1 1 5FE4A730
-P 2900 4800
-AR Path="/5D8A1FAC/5FE4A730" Ref="#PWR?"  Part="1" 
-AR Path="/5FE4A730" Ref="#PWR?"  Part="1" 
-AR Path="/602ACDF9/5FE4A730" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/5FE4A730" Ref="#PWR0221"  Part="1" 
-F 0 "#PWR0221" H 2900 4550 50  0001 C CNN
-F 1 "GND" H 2905 4627 50  0000 C CNN
-F 2 "" H 2900 4800 60  0000 C CNN
-F 3 "" H 2900 4800 60  0000 C CNN
-	1    2900 4800
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 4750 2900 4750
-Wire Wire Line
-	2900 4750 2900 4800
 Wire Wire Line
 	3550 4750 4250 4750
 Wire Wire Line
 	4250 4550 4250 4750
+NoConn ~ 2950 4750
 $EndSCHEMATC

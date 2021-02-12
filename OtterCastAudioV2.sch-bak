@@ -392,9 +392,9 @@ Text GLabel 13950 4300 2    50   Input ~ 0
 BT-PCM-SYNC
 Text GLabel 13950 4400 2    50   Input ~ 0
 BT-PCM-CLK
-Text GLabel 13950 4500 2    50   Input ~ 0
-BT-PCM-DIN
 Text GLabel 13950 4600 2    50   Input ~ 0
+BT-PCM-DIN
+Text GLabel 13950 4500 2    50   Input ~ 0
 BT-PCM-DOUT
 $Comp
 L Connector_Generic:Conn_01x04 J1
@@ -757,10 +757,6 @@ F 4 "C239643" V 7500 9250 50  0001 C CNN "LCSC"
 	1    7500 9250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7150 10050 0    50   Input ~ 0
-UART1_TX
-Text GLabel 7150 9850 0    50   Input ~ 0
-UART1_RX
 $Comp
 L S3-OLinuXino_Rev_A:+3.3V #PWR0154
 U 1 1 5FCE77D5
