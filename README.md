@@ -35,7 +35,7 @@ HW v2.0 has bugs, v2.1 shall be ordered and tested soon.
  - [x] Ethernet
  - [x] Uart
  
- 
+ - [x] Webinterface (config)
  - [x] Shairport-sync
  - [x] Pulseaudio sink
  - [ ] Pulseaudio source
