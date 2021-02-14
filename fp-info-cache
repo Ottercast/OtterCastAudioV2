@@ -1,4 +1,4 @@
-17638570439893453
+17649339440031136
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75355,6 +75355,13 @@ CE
 0
 0
 go-e
+CNT3BRCMS
+
+
+0
+5
+3
+go-e
 CONN-RF-UFL
 
 
@@ -76698,160 +76705,6 @@ minion_logo
 0
 0
 0
-jh_capacitor
-CP_EIA-3216-10
-Tantalum Capacitor SMD Kemet-I (3216-10 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
-capacitor tantalum
-0
-2
-2
-jh_capacitor
-CP_EIA-3528-12
-Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
-capacitor tantalum
-0
-2
-2
-jh_capacitor
-C_0402
-Capacitor 0402
-C Capacitor 0402
-0
-2
-2
-jh_capacitor
-C_0603
-Capacitor 0603
-C Capacitor 0603
-0
-2
-2
-jh_capacitor
-C_0805
-Capacitor 0805
-C Capacitor 0805
-0
-2
-2
-jh_crystal
-2016_SMD_CRYSTAL
-
-
-0
-4
-4
-jh_crystal
-2520_SMD_CRYSTAL
-
-
-0
-4
-4
-jh_crystal
-2532_SMD_CRYSTAL
-
-
-0
-4
-4
-jh_crystal
-CP_EIA-3216-10
-Tantalum Capacitor SMD Kemet-I (3216-10 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
-capacitor tantalum
-0
-2
-2
-jh_crystal
-CP_EIA-3528-12
-Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
-capacitor tantalum
-0
-2
-2
-jh_inductor
-Inductor_4040
-Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-4040, 4.0mmx4.0mm
-inductor taiyo-yuden md smd
-0
-2
-2
-jh_inductor
-R_0402
-Resistor 0402
-R Resistor 0805
-0
-2
-2
-jh_inductor
-R_0603
-Resistor 0603
-R Resistor 0603
-0
-2
-2
-jh_inductor
-R_0805
-Resistor 0805
-R Resistor 0805
-0
-2
-2
-jh_led
-BL-HUB34E-AV-TRB
-
-
-0
-3
-3
-jh_led
-LED-Strip
-
-
-0
-3
-3
-jh_led
-LED_0603_1608Metric
-LED SMD 0603 (1608 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED castellated
-0
-2
-2
-jh_led
-LED_1206_3216_BACK
-LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-jh_led
-LED_Reverse
-
-
-0
-2
-2
-jh_resistor
-R_0402
-Resistor 0402
-R Resistor 0805
-0
-2
-2
-jh_resistor
-R_0603
-Resistor 0603
-R Resistor 0603
-0
-2
-2
-jh_resistor
-R_0805
-Resistor 0805
-R Resistor 0805
-0
-2
-2
 otter
 +
 
@@ -77101,6 +76954,13 @@ otter
 C_0805
 Capacitor 0805
 C Capacitor 0805
+0
+2
+2
+otter
+C_1812
+
+
 0
 2
 2
@@ -77553,6 +77413,13 @@ PH-MVF-5365
 1
 1
 otter
+PJ-313
+
+
+0
+5
+3
+otter
 PJ-3270
 
 
@@ -77651,12 +77518,33 @@ Through hole pin header THT 1x06 2.00mm single row
 12
 6
 otter
+PinHeader_1x06_P2.54mm_Horizontal_center
+Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x06 2.54mm single row
+0
+6
+6
+otter
 PinHeader_1x06_P2.54mm_Vertical_center
 Through hole straight pin header, 1x06, 2.54mm pitch, single row
 Through hole pin header THT 1x06 2.54mm single row
 0
 6
 6
+otter
+PinHeader_1x07_P2.54mm_Horizontal_center
+Through hole angled pin header, 1x07, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x07 2.54mm single row
+0
+7
+7
+otter
+PinHeader_1x07_P2.54mm_Vertical_center
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
 otter
 PinHeader_1x11_P2.54mm_Vertical_NOSILK
 Through hole straight pin header, 1x11, 2.54mm pitch, single row
@@ -77966,6 +77854,27 @@ https://www.aliexpress.com/item/USB-Connector-Type-C-24P-Female-Type-USB-3-1-Hor
 30
 25
 otter
+VL53L1X
+
+
+0
+12
+12
+otter
+VL53L5
+
+
+0
+17
+17
+otter
+VL53L5_helper
+
+
+0
+17
+17
+otter
 WJ25C-B-7.62-2P
 
 
@@ -77993,6 +77902,41 @@ XT60_angle
 0
 4
 2
+otter
+XY_C_1812_3D
+DNP 3D Model
+
+0
+0
+0
+otter
+XY_C_1812_3D_90
+DNP 3D Model
+
+0
+0
+0
+otter
+XY_C_1812_PAD
+
+
+0
+1
+1
+otter
+XY_PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+otter
+XY_pads
+
+
+0
+2
+1
 otter
 brightness_0707
 
@@ -78386,6 +78330,13 @@ pad_1_2
 1
 1
 otter
+piezo_1.65x1.65x5
+
+
+0
+2
+2
+otter
 polyhedrone
 
 
@@ -78462,3 +78413,17 @@ wson8
 0
 9
 8
+otter
+xy_stage
+
+
+0
+0
+0
+otter
+xy_stage_outline
+
+
+0
+0
+0
