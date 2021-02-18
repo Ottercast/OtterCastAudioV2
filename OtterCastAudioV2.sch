@@ -521,7 +521,6 @@ NoConn ~ 6750 3000
 NoConn ~ 6750 3100
 NoConn ~ 6750 3200
 NoConn ~ 6750 3300
-NoConn ~ 6750 3500
 NoConn ~ 6750 2600
 NoConn ~ 6750 2500
 NoConn ~ 6750 2400
@@ -706,4 +705,6 @@ Wire Wire Line
 Connection ~ 6400 9200
 Wire Wire Line
 	6400 9200 6800 9200
+Text GLabel 6750 3500 2    50   Input ~ 0
+GPIO-RST
 $EndSCHEMATC
