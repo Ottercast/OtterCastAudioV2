@@ -12,6 +12,8 @@
   (page A4)
   (layers
     (0 F.Cu signal)
+    (1 In1.Cu signal)
+    (2 In2.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -115,7 +117,7 @@
   (gr_text JLCJLCJLCJLC (at 52 95 270) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
-  (gr_text "OtterCastAudioV2 v2.0" (at 52 75 270) (layer F.SilkS)
+  (gr_text "OtterCastAudioV2 v2\n" (at 52 75 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (gr_line (start 50 100) (end 50 50) (layer Edge.Cuts) (width 0.05) (tstamp 5FB73B0A))
