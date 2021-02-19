@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.127)
     (user_trace_width 0.127)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
@@ -8695,7 +8695,7 @@
   (gr_line (start 102.35 106.45) (end 102.35 95.45) (layer Eco1.User) (width 0.15))
   (gr_line (start 91.35 106.45) (end 102.35 106.45) (layer Eco1.User) (width 0.15))
   (gr_line (start 91.35 95.45) (end 91.35 106.45) (layer Eco1.User) (width 0.15))
-  (gr_text RST (at 123 97.6 90) (layer F.SilkS)
+  (gr_text CFG (at 123 97.6 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 86.705 87.945) (end 79.35 87.945) (layer F.SilkS) (width 0.12))
