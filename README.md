@@ -30,7 +30,7 @@ HW v2.0 has bugs, v2.1 shall be ordered and tested soon.
 
  - [x] Audio Line Out
  - [x] Audio Headphone Out
- - [ ] Audio In
+ - [x] Audio In
  - [x] WiFi
  - [x] Ethernet
  - [x] Uart
@@ -38,7 +38,8 @@ HW v2.0 has bugs, v2.1 shall be ordered and tested soon.
  - [x] Webinterface (config)
  - [x] Shairport-sync
  - [x] Pulseaudio sink
- - [ ] Pulseaudio source
+ - [x] Pulseaudio source
+ - [x] snapcast
 
 ## Images
 
