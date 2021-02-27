@@ -68,7 +68,7 @@ F 3 "~" H 4750 5150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L OtterCastAudioV2-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FF96B43
 P 4850 5150
 AR Path="/5D8A1FAC/5FF96B43" Ref="#PWR?"  Part="1" 
@@ -113,7 +113,7 @@ $EndComp
 Connection ~ 4750 5050
 Connection ~ 4750 5250
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L OtterCastAudioV2-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FF96B59
 P 4650 5150
 AR Path="/5D8A1FAC/5FF96B59" Ref="#PWR?"  Part="1" 
@@ -132,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 5250 4400 5250
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L OtterCastAudioV2-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FF96B61
 P 4100 5050
 AR Path="/5D8A1FAC/5FF96B61" Ref="#PWR?"  Part="1" 
@@ -149,7 +149,7 @@ $EndComp
 Wire Wire Line
 	4100 5050 4200 5050
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L OtterCastAudioV2-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FF96B68
 P 4100 5250
 AR Path="/5D8A1FAC/5FF96B68" Ref="#PWR?"  Part="1" 
@@ -206,7 +206,7 @@ F 3 "~" H 4350 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR?
+L OtterCastAudioV2-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FFB96F5
 P 4100 4550
 AR Path="/5D8A1FAC/5FFB96F5" Ref="#PWR?"  Part="1" 
@@ -510,7 +510,7 @@ Connection ~ 5150 1700
 Wire Wire Line
 	4850 1700 5150 1700
 $Comp
-L S3-OLinuXino_Rev_A:+3.0VA #PWR?
+L OtterCastAudioV2-rescue:+3.0VA-S3-OLinuXino_Rev_A #PWR?
 U 1 1 6023A1C9
 P 6600 1700
 AR Path="/5D8A1FAC/6023A1C9" Ref="#PWR?"  Part="1" 
@@ -556,7 +556,7 @@ $EndComp
 Connection ~ 4750 2100
 Connection ~ 4850 1700
 $Comp
-L S3-OLinuXino_Rev_A:+3.0VA #PWR?
+L OtterCastAudioV2-rescue:+3.0VA-S3-OLinuXino_Rev_A #PWR?
 U 1 1 6027AD71
 P 4250 1700
 AR Path="/5D8A1FAC/6027AD71" Ref="#PWR?"  Part="1" 
@@ -600,7 +600,7 @@ F 3 "" H 4750 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:+3.0VA #PWR?
+L OtterCastAudioV2-rescue:+3.0VA-S3-OLinuXino_Rev_A #PWR?
 U 1 1 602F2215
 P 4250 2100
 AR Path="/5D8A1FAC/602F2215" Ref="#PWR?"  Part="1" 
@@ -1333,7 +1333,7 @@ $EndComp
 Wire Wire Line
 	2950 2500 2950 2450
 $Comp
-L S3-OLinuXino_Rev_A:+3.0VA #PWR?
+L OtterCastAudioV2-rescue:+3.0VA-S3-OLinuXino_Rev_A #PWR?
 U 1 1 60C3B44B
 P 2950 2200
 AR Path="/5D8A1FAC/60C3B44B" Ref="#PWR?"  Part="1" 

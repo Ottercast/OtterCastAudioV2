@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR046
+L OtterCastAudioV2-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR046
 U 1 1 5D97B54A
 P 10450 3250
 F 0 "#PWR046" H 10450 3100 50  0001 C CNN
@@ -33,7 +33,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 3400 10850 3400
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR047
+L OtterCastAudioV2-rescue:GND-S3-OLinuXino_Rev_A #PWR047
 U 1 1 57966C0E
 P 8100 10700
 F 0 "#PWR047" H 8100 10450 50  0001 C CNN
@@ -90,7 +90,7 @@ F 3 "" H 14050 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR0102
+L OtterCastAudioV2-rescue:GND-S3-OLinuXino_Rev_A #PWR0102
 U 1 1 6253EB67
 P 12350 8800
 F 0 "#PWR0102" H 12350 8550 50  0001 C CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	11050 8200 12350 8200
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR0105
+L OtterCastAudioV2-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR0105
 U 1 1 62FAA3E6
 P 11050 7850
 F 0 "#PWR0105" H 11050 7700 50  0001 C CNN
@@ -412,7 +412,7 @@ UART1_TX
 Text GLabel 6050 9200 0    50   Input ~ 0
 UART1_RX
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR0108
+L OtterCastAudioV2-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR0108
 U 1 1 63623CC5
 P 6800 9400
 F 0 "#PWR0108" H 6800 9250 50  0001 C CNN
@@ -487,7 +487,7 @@ MIPI-RESET
 Text GLabel 6750 5800 2    50   Input ~ 0
 MIPI-PWDN
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR0109
+L OtterCastAudioV2-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR0109
 U 1 1 63B28C18
 P 4050 5750
 F 0 "#PWR0109" H 4050 5600 50  0001 C CNN
@@ -550,7 +550,7 @@ $EndComp
 Text GLabel 4150 2700 0    50   Input ~ 0
 GPIO_LED2
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR0111
+L OtterCastAudioV2-rescue:GND-S3-OLinuXino_Rev_A #PWR0111
 U 1 1 67BFC606
 P 8450 10700
 F 0 "#PWR0111" H 8450 10450 50  0001 C CNN
