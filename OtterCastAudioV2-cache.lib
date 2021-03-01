@@ -370,203 +370,6 @@ X Vdd 4 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# OtterCastAudioV2-rescue_+1.1V-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+1.1V-S3-OLinuXino_Rev_A #PWRV 0 40 Y Y 1 F P
-F0 "#PWRV" 0 -200 60 H I C CNN
-F1 "OtterCastAudioV2-rescue_+1.1V-S3-OLinuXino_Rev_A" 0 300 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +1.1V 1 0 0 0 U 50 50 0 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_+1V2-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+1V2-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_+1V2-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +1V2 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_+2.5V-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+2.5V-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_+2.5V-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +2.5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_+2V8-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+2V8-S3-OLinuXino_Rev_A #PWR 0 40 Y Y 1 F P
-F0 "#PWR" 0 -200 60 H I C CNN
-F1 "OtterCastAudioV2-rescue_+2V8-S3-OLinuXino_Rev_A" 0 200 60 H V C CNN
-F2 "" 70 50 60 H I C CNN
-F3 "" 70 50 60 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +2V8 1 0 0 0 U 50 50 0 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_+3.0VA-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+3.0VA-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_+3.0VA-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3.0VA 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_+3.3V-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+3.3V-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_+3.3V-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_+3.3V_RTC-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+3.3V_RTC-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -300 60 H I C CNN
-F1 "OtterCastAudioV2-rescue_+3.3V_RTC-S3-OLinuXino_Rev_A" 0 150 50 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 1 1 0 -30 50 0 100 N
-P 2 1 1 0 0 0 0 100 N
-P 2 1 1 0 0 100 30 50 N
-X +3.3V_RTC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_+5V-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+5V-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_+5V-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_+5V_USBOTG-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_+5V_USBOTG-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_+5V_USBOTG-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V_USBOTG 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_GND-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_GND-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_GND-S3-OLinuXino_Rev_A" 0 -150 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_IPS-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_IPS-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -100 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_IPS-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X IPS 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_SY8009AAAC(SOT23-5)-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_SY8009AAAC(SOT23-5)-S3-OLinuXino_Rev_A U 0 40 Y Y 1 L N
-F0 "U" -150 250 50 H V L BNN
-F1 "OtterCastAudioV2-rescue_SY8009AAAC(SOT23-5)-S3-OLinuXino_Rev_A" -400 -300 50 H V L BNN
-F2 "" 30 150 20 H I C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- *SOT23-5*
-$ENDFPLIST
-DRAW
-S -200 200 200 -200 0 1 0 f
-X EN 1 -300 0 100 R 40 40 1 1 I
-X GND 2 -300 -100 100 R 40 40 1 1 W
-X LX 3 300 100 100 L 40 40 1 1 O
-X IN 4 -300 100 100 R 40 40 1 1 I
-X FB 5 300 -100 100 L 40 40 1 1 I
-ENDDRAW
-ENDDEF
-#
-# OtterCastAudioV2-rescue_VCC-DDR-S3-OLinuXino_Rev_A
-#
-DEF OtterCastAudioV2-rescue_VCC-DDR-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OtterCastAudioV2-rescue_VCC-DDR-S3-OLinuXino_Rev_A" 0 130 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC-DDR 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Power_Protection_SP0502BAHT
 #
 DEF Power_Protection_SP0502BAHT D 0 20 Y N 1 F N
@@ -608,6 +411,51 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# otter_+3.0VA
+#
+DEF otter_+3.0VA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "otter_+3.0VA" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3.0VA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# otter_+3V3_RTC
+#
+DEF otter_+3V3_RTC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -300 60 H I C CNN
+F1 "otter_+3V3_RTC" 0 150 50 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 2 1 1 0 -30 50 0 100 N
+P 2 1 1 0 0 0 0 100 N
+P 2 1 1 0 0 100 30 50 N
+X +3.3V_RTC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# otter_+5V_USBOTG
+#
+DEF otter_+5V_USBOTG #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "otter_+5V_USBOTG" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V_USBOTG 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -1162,6 +1010,21 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# otter_IPS
+#
+DEF otter_IPS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -100 50 H I C CNN
+F1 "otter_IPS" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X IPS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # otter_KH-5220-A56_U.FL
 #
 DEF otter_KH-5220-A56_U.FL AE 0 40 N N 1 F N
@@ -1268,6 +1131,100 @@ X IN 5 -350 150 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# otter_SY8009AAAC(SOT23-5)
+#
+DEF otter_SY8009AAAC(SOT23-5) U 0 40 Y Y 1 L N
+F0 "U" -150 250 50 H V L BNN
+F1 "otter_SY8009AAAC(SOT23-5)" -400 -300 50 H V L BNN
+F2 "" 30 150 20 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ *SOT23-5*
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 0 f
+X EN 1 -300 0 100 R 40 40 1 1 I
+X GND 2 -300 -100 100 R 40 40 1 1 W
+X LX 3 300 100 100 L 40 40 1 1 O
+X IN 4 -300 100 100 R 40 40 1 1 I
+X FB 5 300 -100 100 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# otter_VCC-DDR
+#
+DEF otter_VCC-DDR #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "otter_VCC-DDR" 0 130 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC-DDR 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+1V1
+#
+DEF power_+1V1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+1V1" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V1 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+1V2
+#
+DEF power_+1V2 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+1V2" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V2 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+2V5
+#
+DEF power_+2V5 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+2V5" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +2V5 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+2V8
+#
+DEF power_+2V8 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+2V8" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +2V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power_+3V3
 #
 DEF power_+3V3 #PWR 0 0 Y Y 1 F P
@@ -1281,6 +1238,34 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

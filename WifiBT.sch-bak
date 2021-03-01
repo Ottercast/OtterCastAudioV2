@@ -13,20 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR?
-U 1 1 61C2BFBC
-P 6150 2500
-AR Path="/61C2BFBC" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/61C2BFBC" Ref="#PWR0233"  Part="1" 
-AR Path="/620E795B/61C2BFBC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0233" H 6150 2350 50  0001 C CNN
-F 1 "+3.3V" H 6165 2673 50  0000 C CNN
-F 2 "" H 6150 2500 60  0000 C CNN
-F 3 "" H 6150 2500 60  0000 C CNN
-	1    6150 2500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 3300 5950 3300
 $Comp
@@ -223,41 +209,41 @@ Wire Wire Line
 	6650 3100 7250 3100
 Connection ~ 6650 3100
 Text GLabel 7250 3100 2    50   Input ~ 0
-WL-PMU-EN
+WL_PMU_EN
 Text GLabel 7250 3200 2    50   Input ~ 0
-WL-WAKE-AP
+WL_WAKE_AP
 Text GLabel 7250 3300 2    50   Input ~ 0
-WL-SDIO-CLK
+WL_SDIO_CLK
 Text GLabel 7250 3400 2    50   Input ~ 0
-WL-SDIO-CMD
+WL_SDIO_CMD
 Text GLabel 7250 3500 2    50   Input ~ 0
-WL-SDIO-D0
+WL_SDIO_D0
 Text GLabel 7250 3600 2    50   Input ~ 0
-WL-SDIO-D1
+WL_SDIO_D1
 Text GLabel 7250 3700 2    50   Input ~ 0
-WL-SDIO-D2
+WL_SDIO_D2
 Text GLabel 7250 3800 2    50   Input ~ 0
-WL-SDIO-D3
+WL_SDIO_D3
 Text GLabel 6600 3950 2    50   Input ~ 0
-BT-PCM-SYNC
+BT_PCM_SYNC
 Text GLabel 6600 4050 2    50   Input ~ 0
-BT-PCM-CLK
+BT_PCM_CLK
 Text GLabel 6600 4150 2    50   Input ~ 0
-BT-PCM-DIN
+BT_PCM_DIN
 Text GLabel 6600 4250 2    50   Input ~ 0
-BT-PCM-DOUT
+BT_PCM_DOUT
 Text GLabel 5950 4350 2    50   Input ~ 0
-BT-UART-TX
+BT_UART_TX
 Text GLabel 7750 4450 2    50   Input ~ 0
-BT-UART-RX
+BT_UART_RX
 Text GLabel 5950 4550 2    50   Input ~ 0
-BT-UART-CTS
+BT_UART_CTS
 Text GLabel 5950 4750 2    50   Input ~ 0
-AP-WAKE-BT
+AP_WAKE_BT
 Text GLabel 7750 4850 2    50   Input ~ 0
-BT-WAKE-AP
+BT_WAKE_AP
 Text GLabel 5950 4950 2    50   Input ~ 0
-BT-DIS-N
+BT_DIS_N
 $Comp
 L Device:R_Small R?
 U 1 1 67F9BE5E
@@ -272,7 +258,7 @@ F 3 "~" H 7500 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 7750 5050 2    50   Input ~ 0
-AP-CK32KO
+AP_CK32KO
 $Comp
 L Device:R_Small R?
 U 1 1 67FA73EA
@@ -285,20 +271,6 @@ F 2 "otter:R_0402" H 7500 4750 50  0001 C CNN
 F 3 "~" H 7500 4750 50  0001 C CNN
 	1    7500 4750
 	0    1    1    0   
-$EndComp
-$Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR?
-U 1 1 67FA8CCD
-P 7750 4750
-AR Path="/67FA8CCD" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/67FA8CCD" Ref="#PWR0234"  Part="1" 
-AR Path="/620E795B/67FA8CCD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0234" H 7750 4600 50  0001 C CNN
-F 1 "+3.3V" V 7775 4975 50  0000 C CNN
-F 2 "" H 7750 4750 60  0000 C CNN
-F 3 "" H 7750 4750 60  0000 C CNN
-	1    7750 4750
-	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	7750 4750 7600 4750
@@ -320,20 +292,6 @@ F 3 "~" H 7500 4350 50  0001 C CNN
 	1    7500 4350
 	0    1    1    0   
 $EndComp
-$Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR?
-U 1 1 67FAEE07
-P 7750 4350
-AR Path="/67FAEE07" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/67FAEE07" Ref="#PWR0235"  Part="1" 
-AR Path="/620E795B/67FAEE07" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0235" H 7750 4200 50  0001 C CNN
-F 1 "+3.3V" V 7775 4575 50  0000 C CNN
-F 2 "" H 7750 4350 60  0000 C CNN
-F 3 "" H 7750 4350 60  0000 C CNN
-	1    7750 4350
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	7750 4350 7600 4350
 Wire Wire Line
@@ -344,7 +302,7 @@ Connection ~ 7400 4450
 Wire Wire Line
 	7600 5050 7750 5050
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 67FBF5AE
 P 4700 3600
 AR Path="/67FBF5AE" Ref="#PWR?"  Part="1" 
@@ -390,7 +348,7 @@ P 2050 4150
 AR Path="/602ACDF9/67FCAAB7" Ref="L?"  Part="1" 
 AR Path="/6191F40B/67FCAAB7" Ref="L5"  Part="1" 
 F 0 "L5" V 2200 4150 50  0000 C CNN
-F 1 "2.2uH" V 2100 4150 50  0000 C CNN
+F 1 "2.2nH" V 2100 4150 50  0000 C CNN
 F 2 "otter:L_0402" H 2050 4150 50  0001 C CNN
 F 3 "~" H 2050 4150 50  0001 C CNN
 	1    2050 4150
@@ -424,7 +382,7 @@ Wire Wire Line
 	2200 4150 2250 4150
 Connection ~ 2200 4150
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 67FD8D22
 P 2200 4400
 AR Path="/67FD8D22" Ref="#PWR?"  Part="1" 
@@ -438,7 +396,7 @@ F 3 "" H 2200 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 67FDA7B2
 P 1850 4400
 AR Path="/67FDA7B2" Ref="#PWR?"  Part="1" 
@@ -452,7 +410,7 @@ F 3 "" H 1850 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 67FDC2CD
 P 1750 4000
 AR Path="/67FDC2CD" Ref="#PWR?"  Part="1" 
@@ -480,32 +438,18 @@ Wire Wire Line
 	4450 3550 4100 3550
 Wire Wire Line
 	4100 3550 4100 3500
-$Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR?
-U 1 1 67FE9364
-P 4050 3250
-AR Path="/67FE9364" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/67FE9364" Ref="#PWR0240"  Part="1" 
-AR Path="/620E795B/67FE9364" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0240" H 4050 3100 50  0001 C CNN
-F 1 "+3.3V" V 4065 3378 50  0000 L CNN
-F 2 "" H 4050 3250 60  0000 C CNN
-F 3 "" H 4050 3250 60  0000 C CNN
-	1    4050 3250
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4050 3250 4100 3250
 Connection ~ 4100 3250
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 67FED111
 P 4050 3550
 AR Path="/67FED111" Ref="#PWR?"  Part="1" 
 AR Path="/6191F40B/67FED111" Ref="#PWR0241"  Part="1" 
 AR Path="/620E795B/67FED111" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0241" H 4050 3300 50  0001 C CNN
-F 1 "GND" V 4055 3422 50  0000 R CNN
+F 1 "GND" V 4050 3400 50  0000 R CNN
 F 2 "" H 4050 3550 60  0000 C CNN
 F 3 "" H 4050 3550 60  0000 C CNN
 	1    4050 3550
@@ -554,32 +498,18 @@ Wire Wire Line
 	3250 3400 2900 3400
 Wire Wire Line
 	2900 3400 2900 3350
-$Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR?
-U 1 1 67FF37F7
-P 2850 3100
-AR Path="/67FF37F7" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/67FF37F7" Ref="#PWR0242"  Part="1" 
-AR Path="/620E795B/67FF37F7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0242" H 2850 2950 50  0001 C CNN
-F 1 "+3.3V" V 2865 3228 50  0000 L CNN
-F 2 "" H 2850 3100 60  0000 C CNN
-F 3 "" H 2850 3100 60  0000 C CNN
-	1    2850 3100
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	2850 3100 2900 3100
 Connection ~ 2900 3100
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 67FF37FF
 P 2850 3400
 AR Path="/67FF37FF" Ref="#PWR?"  Part="1" 
 AR Path="/6191F40B/67FF37FF" Ref="#PWR0243"  Part="1" 
 AR Path="/620E795B/67FF37FF" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0243" H 2850 3150 50  0001 C CNN
-F 1 "GND" V 2855 3272 50  0000 R CNN
+F 1 "GND" V 2850 3250 50  0000 R CNN
 F 2 "" H 2850 3400 60  0000 C CNN
 F 3 "" H 2850 3400 60  0000 C CNN
 	1    2850 3400
@@ -590,70 +520,18 @@ Wire Wire Line
 Connection ~ 2900 3400
 Wire Wire Line
 	3250 3100 4750 3100
-$Comp
-L Device:R_Small R?
-U 1 1 5FF3EF5A
-P 6250 4250
-AR Path="/5FF3EF5A" Ref="R?"  Part="1" 
-AR Path="/6191F40B/5FF3EF5A" Ref="R69"  Part="1" 
-F 0 "R69" V 6200 4100 50  0000 C CNN
-F 1 "DNP" V 6200 4400 50  0000 C CNN
-F 2 "otter:R_0402" H 6250 4250 50  0001 C CNN
-F 3 "~" H 6250 4250 50  0001 C CNN
-	1    6250 4250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6600 4250 6350 4250
 Wire Wire Line
 	6150 4250 5950 4250
-$Comp
-L Device:R_Small R?
-U 1 1 5FF44E4A
-P 6250 4150
-AR Path="/5FF44E4A" Ref="R?"  Part="1" 
-AR Path="/6191F40B/5FF44E4A" Ref="R68"  Part="1" 
-F 0 "R68" V 6200 4000 50  0000 C CNN
-F 1 "DNP" V 6200 4300 50  0000 C CNN
-F 2 "otter:R_0402" H 6250 4150 50  0001 C CNN
-F 3 "~" H 6250 4150 50  0001 C CNN
-	1    6250 4150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6600 4150 6350 4150
 Wire Wire Line
 	6150 4150 5950 4150
-$Comp
-L Device:R_Small R?
-U 1 1 5FF46A23
-P 6250 4050
-AR Path="/5FF46A23" Ref="R?"  Part="1" 
-AR Path="/6191F40B/5FF46A23" Ref="R67"  Part="1" 
-F 0 "R67" V 6200 3900 50  0000 C CNN
-F 1 "DNP" V 6200 4200 50  0000 C CNN
-F 2 "otter:R_0402" H 6250 4050 50  0001 C CNN
-F 3 "~" H 6250 4050 50  0001 C CNN
-	1    6250 4050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6600 4050 6350 4050
 Wire Wire Line
 	6150 4050 5950 4050
-$Comp
-L Device:R_Small R?
-U 1 1 5FF4884B
-P 6250 3950
-AR Path="/5FF4884B" Ref="R?"  Part="1" 
-AR Path="/6191F40B/5FF4884B" Ref="R66"  Part="1" 
-F 0 "R66" V 6200 3800 50  0000 C CNN
-F 1 "DNP" V 6200 4100 50  0000 C CNN
-F 2 "otter:R_0402" H 6250 3950 50  0001 C CNN
-F 3 "~" H 6250 3950 50  0001 C CNN
-	1    6250 3950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6600 3950 6350 3950
 Wire Wire Line
@@ -688,7 +566,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 5050 7400 5050
 Text GLabel 5950 4650 2    50   Input ~ 0
-BT-UART-RTS
+BT_UART_RTS
 Wire Wire Line
 	4750 3550 4700 3550
 Wire Wire Line
@@ -724,7 +602,7 @@ F 3 "~" H 4350 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 5FDF6E60
 P 4700 5300
 AR Path="/5D8A1FAC/5FDF6E60" Ref="#PWR?"  Part="1" 
@@ -732,7 +610,7 @@ AR Path="/5FDF6E60" Ref="#PWR?"  Part="1"
 AR Path="/602ACDF9/5FDF6E60" Ref="#PWR?"  Part="1" 
 AR Path="/6191F40B/5FDF6E60" Ref="#PWR0259"  Part="1" 
 F 0 "#PWR0259" H 4700 5050 50  0001 C CNN
-F 1 "GND" H 4705 5127 50  0000 C CNN
+F 1 "GND" H 4700 5150 50  0000 C CNN
 F 2 "" H 4700 5300 60  0000 C CNN
 F 3 "" H 4700 5300 60  0000 C CNN
 	1    4700 5300
@@ -769,7 +647,7 @@ Wire Wire Line
 	4350 5100 4350 5050
 Connection ~ 4350 5050
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 5FE117F3
 P 4350 5300
 AR Path="/5D8A1FAC/5FE117F3" Ref="#PWR?"  Part="1" 
@@ -777,7 +655,7 @@ AR Path="/5FE117F3" Ref="#PWR?"  Part="1"
 AR Path="/602ACDF9/5FE117F3" Ref="#PWR?"  Part="1" 
 AR Path="/6191F40B/5FE117F3" Ref="#PWR0267"  Part="1" 
 F 0 "#PWR0267" H 4350 5050 50  0001 C CNN
-F 1 "GND" H 4355 5127 50  0000 C CNN
+F 1 "GND" H 4350 5150 50  0000 C CNN
 F 2 "" H 4350 5300 60  0000 C CNN
 F 3 "" H 4350 5300 60  0000 C CNN
 	1    4350 5300
@@ -794,26 +672,12 @@ F 3 "" H 3150 4750 50  0001 C CNN
 	1    3250 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR?
-U 1 1 5FE304F3
-P 3250 4450
-AR Path="/5FE304F3" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/5FE304F3" Ref="#PWR0113"  Part="1" 
-AR Path="/620E795B/5FE304F3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0113" H 3250 4300 50  0001 C CNN
-F 1 "+3.3V" H 3265 4650 50  0000 C CNN
-F 2 "" H 3250 4450 60  0000 C CNN
-F 3 "" H 3250 4450 60  0000 C CNN
-	1    3250 4450
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 4550 4750 4550
 NoConn ~ 4750 4450
 NoConn ~ 4750 4650
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L power:GND #PWR?
 U 1 1 5FE412EC
 P 3250 5050
 AR Path="/5D8A1FAC/5FE412EC" Ref="#PWR?"  Part="1" 
@@ -821,7 +685,7 @@ AR Path="/5FE412EC" Ref="#PWR?"  Part="1"
 AR Path="/602ACDF9/5FE412EC" Ref="#PWR?"  Part="1" 
 AR Path="/6191F40B/5FE412EC" Ref="#PWR0219"  Part="1" 
 F 0 "#PWR0219" H 3250 4800 50  0001 C CNN
-F 1 "GND" H 3255 4877 50  0000 C CNN
+F 1 "GND" H 3250 4900 50  0000 C CNN
 F 2 "" H 3250 5050 60  0000 C CNN
 F 3 "" H 3250 5050 60  0000 C CNN
 	1    3250 5050
@@ -832,4 +696,140 @@ Wire Wire Line
 Wire Wire Line
 	4250 4550 4250 4750
 NoConn ~ 2950 4750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 604560F3
+P 2850 3100
+AR Path="/604A1CEE/604560F3" Ref="#PWR?"  Part="1" 
+AR Path="/604560F3" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/604560F3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 2950 50  0001 C CNN
+F 1 "+3V3" V 2850 3250 50  0000 L CNN
+F 2 "" H 2850 3100 50  0001 C CNN
+F 3 "" H 2850 3100 50  0001 C CNN
+	1    2850 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60458ADE
+P 4050 3250
+AR Path="/604A1CEE/60458ADE" Ref="#PWR?"  Part="1" 
+AR Path="/60458ADE" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/60458ADE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 3100 50  0001 C CNN
+F 1 "+3V3" V 4050 3400 50  0000 L CNN
+F 2 "" H 4050 3250 50  0001 C CNN
+F 3 "" H 4050 3250 50  0001 C CNN
+	1    4050 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6045C328
+P 6150 2500
+AR Path="/604A1CEE/6045C328" Ref="#PWR?"  Part="1" 
+AR Path="/6045C328" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/6045C328" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 2350 50  0001 C CNN
+F 1 "+3V3" H 6150 2650 50  0000 C CNN
+F 2 "" H 6150 2500 50  0001 C CNN
+F 3 "" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6045FBF0
+P 7750 4350
+AR Path="/604A1CEE/6045FBF0" Ref="#PWR?"  Part="1" 
+AR Path="/6045FBF0" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/6045FBF0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7750 4200 50  0001 C CNN
+F 1 "+3V3" V 7750 4500 50  0000 L CNN
+F 2 "" H 7750 4350 50  0001 C CNN
+F 3 "" H 7750 4350 50  0001 C CNN
+	1    7750 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6046245F
+P 7750 4750
+AR Path="/604A1CEE/6046245F" Ref="#PWR?"  Part="1" 
+AR Path="/6046245F" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/6046245F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7750 4600 50  0001 C CNN
+F 1 "+3V3" V 7750 4900 50  0000 L CNN
+F 2 "" H 7750 4750 50  0001 C CNN
+F 3 "" H 7750 4750 50  0001 C CNN
+	1    7750 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60465D24
+P 3250 4450
+AR Path="/604A1CEE/60465D24" Ref="#PWR?"  Part="1" 
+AR Path="/60465D24" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/60465D24" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 4300 50  0001 C CNN
+F 1 "+3V3" H 3250 4600 50  0000 C CNN
+F 2 "" H 3250 4450 50  0001 C CNN
+F 3 "" H 3250 4450 50  0001 C CNN
+	1    3250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FF3EF5A
+P 6250 4250
+AR Path="/5FF3EF5A" Ref="R?"  Part="1" 
+AR Path="/6191F40B/5FF3EF5A" Ref="R69"  Part="1" 
+F 0 "R69" V 6200 4100 50  0000 C CNN
+F 1 "DNP" V 6200 4400 50  0000 C CNN
+F 2 "otter:R_0402" H 6250 4250 50  0001 C CNN
+F 3 "~" H 6250 4250 50  0001 C CNN
+	1    6250 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FF44E4A
+P 6250 4150
+AR Path="/5FF44E4A" Ref="R?"  Part="1" 
+AR Path="/6191F40B/5FF44E4A" Ref="R68"  Part="1" 
+F 0 "R68" V 6200 4000 50  0000 C CNN
+F 1 "DNP" V 6200 4300 50  0000 C CNN
+F 2 "otter:R_0402" H 6250 4150 50  0001 C CNN
+F 3 "~" H 6250 4150 50  0001 C CNN
+	1    6250 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FF46A23
+P 6250 4050
+AR Path="/5FF46A23" Ref="R?"  Part="1" 
+AR Path="/6191F40B/5FF46A23" Ref="R67"  Part="1" 
+F 0 "R67" V 6200 3900 50  0000 C CNN
+F 1 "DNP" V 6200 4200 50  0000 C CNN
+F 2 "otter:R_0402" H 6250 4050 50  0001 C CNN
+F 3 "~" H 6250 4050 50  0001 C CNN
+	1    6250 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FF4884B
+P 6250 3950
+AR Path="/5FF4884B" Ref="R?"  Part="1" 
+AR Path="/6191F40B/5FF4884B" Ref="R66"  Part="1" 
+F 0 "R66" V 6200 3800 50  0000 C CNN
+F 1 "DNP" V 6200 4100 50  0000 C CNN
+F 2 "otter:R_0402" H 6250 3950 50  0001 C CNN
+F 3 "~" H 6250 3950 50  0001 C CNN
+	1    6250 3950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
