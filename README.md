@@ -35,6 +35,7 @@ HW v2.0 has bugs, v2.1 shall be ordered and tested soon.
  - [x] WiFi
  - [x] Ethernet
  - [x] Uart
+ - [ ] USB Sound card mode
  
  - [x] Webinterface (config)
  - [x] Shairport-sync
