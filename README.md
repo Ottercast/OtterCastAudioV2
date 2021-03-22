@@ -1,9 +1,12 @@
 # OtterCastAudioV2
 
 OtterCast is an open-source audio streaming device running Linux.
-Based on a Sochip S3 SoC, featuring a Webinterface, shairport-sync, snapcast and pulseaudio sink/source.
+Based on a Sochip S3 SoC, featuring a Webinterface, shairport-sync, snapcast, Spotify Connect and pulseaudio sink/source.
 
-[Demo](https://twitter.com/Toble_Miner/status/1360255162682638337)
+![](images/3.jpeg)
+![](images/4.jpeg)
+
+[Demo Video](https://twitter.com/JanHenrikH/status/1374088494985969667)
 
 ## Team
 
@@ -22,6 +25,13 @@ Based on a Sochip S3 SoC, featuring a Webinterface, shairport-sync, snapcast and
 *What happened to OtterCastAudioV1?*
 
 Nobody shall ever know
+
+
+## Configuration
+
+OtterCastAudio can either be configured via the `config.sh` file or via the web-interface.
+
+![](images/w.jpeg)
 
 ## Status
 
