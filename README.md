@@ -35,7 +35,7 @@ OtterCastAudio can either be configured via the `config.sh` file or via the web-
 
 ## Status
 
-HW v2.0 has bugs, v2.1 shall be ordered and tested soon.
+HW v2.0 has bugs, ~~v2.1 shall be ordered and tested soon~~, v2.1 works.
 
  - [x] Audio Line Out
  - [x] Audio Headphone Out
