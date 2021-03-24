@@ -1,5 +1,9 @@
 # Notes
 
+All production files are optimized for (JLCPCBs SMT service)[https://cart.jlcpcb.com/quote?orderType=1]. The gerbers are located in `OtterCast_combined-v2.1.zip` and as for the BOM and position file please refer to `BOM_v2.1.csv` and `POS_v2.1.csv`.
+
+Please choose `1.6mm`, `impedance control`, `ENIG`, `Specify order number location`, `SMT Top side assembly` and `tooling holes added by customer` as board options.
+
 The `BOM_v2.1.csv` does not contain all parts, since JLC does not sell all parts. Please refer to the following list for the manual assembly parts.
 
 | Designator    | Part          | Layer         | LCSC  | Other |
