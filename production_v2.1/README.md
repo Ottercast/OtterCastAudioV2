@@ -23,6 +23,6 @@ Or (jump to the Images section)[] of this README to see how to order the boards.
 
 ## JLC Images
 
-!()[images/j1.png]
-!()[images/j2.png]
-!()[images/j3.png]
+![](images/j1.png)
+![](images/j2.png)
+![](images/j3.png)
