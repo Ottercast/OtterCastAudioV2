@@ -6,7 +6,7 @@ Please choose `1.6mm`, `impedance control`, `ENIG`, `Specify order number locati
 
 The `BOM_v2.1.csv` does not contain all parts, since JLC does not sell all parts. Please refer to the following list for the manual assembly parts.
 
-Or (jump to the Images section)[] of this README to see how to order the boards.
+Or [jump to the Images section](https://github.com/Ottercast/OtterCastAudioV2/blob/main/production_v2.1/README.md#jlc-images) of this README to see how to order the boards.
 
 
 | Designator    | Part          | Layer         | LCSC  | Other |
@@ -23,6 +23,6 @@ Or (jump to the Images section)[] of this README to see how to order the boards.
 
 ## JLC Images
 
-![](images/j1.png)
-![](images/j2.png)
-![](images/j3.png)
+![](/images/j1.png)
+![](/images/j2.png)
+![](/images/j3.png)
