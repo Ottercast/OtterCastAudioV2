@@ -14,34 +14,28 @@ We are currently planning a small batch production run, stay tuned.
 
 You don't want to wait? You can of course run a small batch on your own! Please have a look into the [production folder](/production_v2.1), a batch size of just 5 (and up to 30) boards is supported by JLC.
 
+## Installation & Configuration
+
+OtterCastAudio can either be configured via the `config.sh` file or via the web-interface.
+
+![](images/w.jpeg)
+
+Check out our [Documentation](https://cast.otter.jetzt/docs/) for more information!
+
 ## Schematics?
 
 [Schematics!](/OtterCastAudioV2.pdf)
 
 ## Team
 
-*Hardware by:*
+ - [@FauthNiklas](https://twitter.com/FauthNiklas) Hardware - OtterCastAmp
+ - [@JanHenrikH](https://twitter.com/JanHenrikH) Hardware - OtterCastAudio
+ - [@Toble_Miner](https://twitter.com/Toble_Miner) Software - Embedded Linux
+ - [@Manawyrm](https://twitter.com/Manawyrm) Software - Frontend & OTA
 
-[@FauthNiklas](https://twitter.com/FauthNiklas)
-
-[@JanHenrikH](https://twitter.com/JanHenrikH)
-
-*Bringup & Linux build & software by:*
-
-[@Toble_Miner](https://twitter.com/Toble_Miner)
-
-[@Manawyrm](https://twitter.com/Manawyrm)
-
-*What happened to OtterCastAudioV1?*
+## What happened to OtterCastAudioV1?
 
 Nobody shall ever know
-
-
-## Configuration
-
-OtterCastAudio can either be configured via the `config.sh` file or via the web-interface.
-
-![](images/w.jpeg)
 
 ## Status
 
@@ -61,8 +55,7 @@ HW v2.0 has bugs, ~~v2.1 shall be ordered and tested soon~~, v2.1 works.
  - [x] Pulseaudio source
  - [x] snapcast
 
-## Images
+## License
 
-![](images/1.jpg)
-![](images/2.jpg)
-![](images/3.jpg)
+![MIT Licensed HW](images/license.png)
+
