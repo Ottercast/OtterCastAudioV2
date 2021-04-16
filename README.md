@@ -39,21 +39,20 @@ Nobody shall ever know
 
 ## Status
 
-HW v2.0 has bugs, ~~v2.1 shall be ordered and tested soon~~, v2.1 works.
+HW v2.1 is tested and works!
 
  - [x] Audio Line Out
  - [x] Audio Headphone Out
  - [x] Audio In
  - [x] WiFi
  - [x] Ethernet
- - [x] Uart
- - [ ] USB Sound card mode
+ - [x] USB Sound card mode
 
  - [x] Webinterface (config)
  - [x] Shairport-sync
- - [x] Pulseaudio sink
- - [x] Pulseaudio source
- - [x] snapcast
+ - [x] Pulseaudio sink/source
+ - [x] snapcast server/client
+ - [x] Spotify Connect (librespot)
 
 ## License
 
