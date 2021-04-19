@@ -16,7 +16,7 @@ You don't want to wait? You can of course run a small batch on your own! Please 
 
 ## Installation & Configuration
 
-OtterCastAudio can either be configured via the `config.sh` file or via the web-interface.
+After [downloading and flashing](https://cast.otter.jetzt/docs/firmware/#download-ready-made-images) the image, OtterCastAMP can either be configured via the `config.ini` file or via the web-interface.
 
 ![](images/w.jpeg)
 
@@ -57,4 +57,3 @@ HW v2.1 is tested and works!
 ## License
 
 ![MIT Licensed HW](images/license.png)
-
