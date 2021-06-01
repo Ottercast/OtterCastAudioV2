@@ -56,4 +56,4 @@ HW v2.1 is tested and works!
 
 ## License
 
-![https://certification.oshwa.org/de000109.html](images/license.png)
+[![License Banner](images/license.png)](https://certification.oshwa.org/de000109.html)
