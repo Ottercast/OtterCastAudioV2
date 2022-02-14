@@ -6,7 +6,7 @@ Based on a Sochip S3 SoC, featuring a Webinterface, shairport-sync, snapcast, Sp
 ![](images/4.jpeg)
 ![](images/5.jpeg)
 
-[Demo Video](https://twitter.com/JanHenrikH/status/1374088494985969667)
+[Demo Video](https://twitter.com/_Jana_Marie/status/1374088494985969667)
 
 ## How do I get one?
 
@@ -28,8 +28,8 @@ Check out our [Documentation](https://cast.otter.jetzt/docs/) for more informati
 
 ## Team
 
- - [@FauthNiklas](https://twitter.com/FauthNiklas) Hardware - OtterCastAmp
- - [@JanHenrikH](https://twitter.com/JanHenrikH) Hardware - OtterCastAudio
+ - [@lucysrausch](https://twitter.com/lucysrausch) Hardware - OtterCastAmp
+ - [@_Jana_Marie](https://twitter.com/_Jana_Marie) Hardware - OtterCastAudio
  - [@Toble_Miner](https://twitter.com/Toble_Miner) Software - Embedded Linux
  - [@Manawyrm](https://twitter.com/Manawyrm) Software - Frontend & OTA
 
