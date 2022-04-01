@@ -1,4 +1,4 @@
-17657411022977197
+17670372737697197
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76741,6 +76741,13 @@ otter
 13
 13
 otter
+1-338088-3
+1-338088-3 RJ45 TE Connectivity 87547-4111LF Amphenol ICC
+
+0
+12
+9
+otter
 2P2T_R
 
 
@@ -76789,6 +76796,13 @@ otter
 0
 2
 2
+otter
+918-418K2022Y40004
+Jing USB-C Female 24p USB
+
+0
+28
+25
 otter
 2016_SMD_CRYSTAL
 
@@ -77294,6 +77308,13 @@ MLCC_Piezo_pads
 3
 1
 otter
+MP8859
+
+
+0
+16
+16
+otter
 OVM9724-RADA
 
 
@@ -77637,6 +77658,13 @@ QFN10L
 10
 10
 otter
+R6GHC-A30
+
+
+0
+3
+3
+otter
 RK14J12R0A09
 
 
@@ -77755,6 +77783,13 @@ STL8723BS
 0
 44
 44
+otter
+SU_10.16HP_05
+
+
+0
+20
+5
 otter
 SV01A103AEA01R00
 SV01A103A SV01A103AEA01R00
@@ -77967,6 +78002,13 @@ Through hole pin header THT 1x02 2.54mm single row
 2
 otter
 XY_pads
+
+
+0
+2
+1
+otter
+banana-jack
 
 
 0
@@ -78441,6 +78483,20 @@ solderpad
 0
 1
 1
+otter
+type2_banana
+
+
+0
+7
+7
+otter
+type2_direct
+
+
+0
+7
+7
 otter
 wson8
 
