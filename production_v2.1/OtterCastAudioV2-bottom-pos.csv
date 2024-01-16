@@ -1,0 +1,12 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"AE1","KH-5220-A56_U.FL","KH-5220-A56",83.450000,-113.750000,40.000000,bottom
+"C32","100n","C_0402",96.050000,-100.600000,180.000000,bottom
+"C38","100n","C_0402",98.600000,-99.550000,-135.000000,bottom
+"C49","DNP","C_0402",79.850000,-92.700000,0.000000,bottom
+"C92","10u","C_0603",96.350000,-99.600000,180.000000,bottom
+"G***","LOGO","OtterCastAudioV2_silk_by",96.400000,-107.800000,180.000000,bottom
+"G***","LOGO","OtterCastAudioV2_silk_line_in",91.000000,-84.400000,-90.000000,bottom
+"G***","LOGO","OtterCastAudioV2_silk_line_out",100.000000,-81.500000,-90.000000,bottom
+"G***","LOGO","OtterCastAudioV2_silk_amp_out",109.000000,-84.500000,-90.000000,bottom
+"J2","SD","microSD_HC_Hirose_DM3D-SF",85.800000,-99.800000,90.000000,bottom
+"J8","49F-1201GYD2NL","49F-1201GYDXNL",110.200000,-110.250000,0.000000,bottom
