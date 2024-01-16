@@ -23,6 +23,8 @@ Or [jump to the Images section](https://github.com/Ottercast/OtterCastAudioV2/bl
 
 ## JLC Images
 
-![](/images/j1.png)
-![](/images/j2.png)
-![](/images/j3.png)
+![](/images/jlcpcb_configuration.png)
+If you can't select the layer sequence, try changing the *Layers* to 6, then back to 4. For some reason, it sometimes doesn't load correctly on JLCPCB's website.
+![](/images/jlcpcb_configuration_layersequence.png)
+![](../images/jlcpcb_configuration_layerstackup.png)
+![](../images/jlcpcb_configuration_billofmaterials.png)
