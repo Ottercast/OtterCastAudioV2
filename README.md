@@ -10,7 +10,7 @@ Based on a Sochip S3 SoC, featuring a Webinterface, shairport-sync, snapcast, Sp
 
 ## How do I get one?
 
-We are currently planning a small batch production run, stay tuned.
+~~We are currently planning a small batch production run, stay tuned.~~ Sorry, we don't 🙈
 
 You don't want to wait? You can of course run a small batch on your own! Please have a look into the [production folder](/production_v2.1), a batch size of just 5 (and up to 30) boards is supported by JLC.
 
