@@ -6,11 +6,10 @@ Based on a Sochip S3 SoC, featuring a Webinterface, shairport-sync, snapcast, Sp
 ![](images/4.jpeg)
 ![](images/5.jpeg)
 
-[Demo Video](https://twitter.com/_Jana_Marie/status/1374088494985969667)
 
 ## How do I get one?
 
-We are currently planning a small batch production run, stay tuned.
+~We are currently planning a small batch production run, stay tuned.~ No we are not, sorry
 
 You don't want to wait? You can of course run a small batch on your own! Please have a look into the [production folder](/production_v2.1), a batch size of just 5 (and up to 30) boards is supported by JLC.
 
@@ -29,7 +28,7 @@ Check out our [Documentation](https://cast.otter.jetzt/docs/) for more informati
 ## Team
 
  - [@lucysrausch](https://twitter.com/lucysrausch) Hardware - OtterCastAmp
- - [@_Jana_Marie](https://twitter.com/_Jana_Marie) Hardware - OtterCastAudio
+ - [@janamarie](https://chaos.social/@janamarie) Hardware - OtterCastAudio
  - [@Toble_Miner](https://twitter.com/Toble_Miner) Software - Embedded Linux
  - [@Manawyrm](https://twitter.com/Manawyrm) Software - Frontend & OTA
 
