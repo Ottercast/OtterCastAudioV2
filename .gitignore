@@ -5,3 +5,7 @@ OtterCast_STL.stl
 bom/
 *.scad
 OtterCastAudioV2-backups/
+OtterCastAudioV2-rescue*
+OtterCastAudioV2-cache*
+fp-info-cache
+fp-lib-table
