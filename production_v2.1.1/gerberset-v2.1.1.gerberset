@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LoadedOutlines>
+    <string>\\vmware-host\Shared Folders\jana\kicad\OtterCastAudioV2\gerber_v2.1.1\OtterCastAudioV2-v2.1.1.zip</string>
+    <string>\\vmware-host\Shared Folders\jana\kicad\OtterCastAudioV2\Edgerails\gerber\Edgerails-v2.1.1.zip</string>
+    <string>\\vmware-host\Shared Folders\jana\kicad\OtterCastAudioV2\Edgerails\gerber\Edgerails-v2.1.1.zip</string>
+  </LoadedOutlines>
+  <Instances>
+    <GerberInstance>
+      <Center>
+        <X>-68</X>
+        <Y>125</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>\\vmware-host\Shared Folders\jana\kicad\OtterCastAudioV2\gerber_v2.1.1\OtterCastAudioV2-v2.1.1.zip</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>-50</X>
+        <Y>100</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>\\vmware-host\Shared Folders\jana\kicad\OtterCastAudioV2\Edgerails\gerber\Edgerails-v2.1.1.zip</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>10</X>
+        <Y>100</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>\\vmware-host\Shared Folders\jana\kicad\OtterCastAudioV2\Edgerails\gerber\Edgerails-v2.1.1.zip</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+  </Instances>
+  <Tabs>
+    <BreakTab>
+      <Center>
+        <X>57</X>
+        <Y>37</Y>
+      </Center>
+      <Angle>0</Angle>
+      <Radius>4</Radius>
+      <Valid>false</Valid>
+    </BreakTab>
+    <BreakTab>
+      <Center>
+        <X>7</X>
+        <Y>37</Y>
+      </Center>
+      <Angle>0</Angle>
+      <Radius>4</Radius>
+      <Valid>false</Valid>
+    </BreakTab>
+    <BreakTab>
+      <Center>
+        <X>57</X>
+        <Y>13</Y>
+      </Center>
+      <Angle>0</Angle>
+      <Radius>4</Radius>
+      <Valid>false</Valid>
+    </BreakTab>
+    <BreakTab>
+      <Center>
+        <X>7</X>
+        <Y>13</Y>
+      </Center>
+      <Angle>0</Angle>
+      <Radius>4</Radius>
+      <Valid>false</Valid>
+    </BreakTab>
+  </Tabs>
+  <Width>100</Width>
+  <Height>100</Height>
+  <MarginBetweenBoards>2</MarginBetweenBoards>
+  <ConstructNegativePolygon>false</ConstructNegativePolygon>
+  <FillOffset>3</FillOffset>
+  <Smoothing>1</Smoothing>
+  <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
+  <ClipToOutlines>true</ClipToOutlines>
+  <LastExportFolder>C:\Users\jana\Documents</LastExportFolder>
+  <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
+  <MergeFileTypes>false</MergeFileTypes>
+</GerberLayoutSet>
